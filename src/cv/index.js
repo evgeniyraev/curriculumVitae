@@ -5,7 +5,7 @@ export default function CV() {
         <div
             className="cv"
         >
-            it works
+            Evgeniy Raev
         </div>
     )
 }
