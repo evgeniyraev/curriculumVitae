@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.dev",
-    "build": "npm run build:static && webpack --progress --config webpack/webpack.prod",
+    "build": "mkdir public && npm run build:static && webpack --progress --config webpack/webpack.prod",
     "build:static": "babel-node ./scripts/exportHTML.js"
   },
   "dependencies": {
