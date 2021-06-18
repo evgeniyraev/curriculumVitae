@@ -9,11 +9,10 @@
   "scripts": {
     "start": "webpack serve --config webpack/webpack.dev",
     "build": "npm run build:static && npm run build:scss && webpack --progress --config webpack/webpack.prod",
-    "export:scss":"find ./src -iname '*.scss'  -exec echo \"@import '{}';\" \\; > index.scss",
-    "build:scss":"npm run export:scss && sass index.scss ./public/styles.css --no-source-map && rm index.scss",
+    "export:scss": "find ./src -iname '*.scss'  -exec echo \"@import '{}';\" \\; > index.scss",
+    "build:scss": "npm run export:scss && sass index.scss ./public/styles.css --no-source-map && rm index.scss",
     "build:static": "npm run clear:imports && mkdir -p public && babel-node ./scripts/exportHTML.js",
-    "clear:imports":"find ./src/ -type f -exec sed -i '' -e '/.scss/d' {} \\;"
-
+    "clear:imports": "find ./src/ -type f -exec sed -i '' -e '/.scss/d' {} \\;"
   },
   "dependencies": {
     "@babel/cli": "^7.14.5",
