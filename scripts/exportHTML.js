@@ -1,8 +1,18 @@
 import fs from 'fs';
+import React from "react";
 import ReactDOMServer from 'react-dom/server';
+
 import Wrapper from '../src/wrapper';
 
-let htmlString = ReactDOMServer.renderToStaticMarkup(Wrapper())
+console.log(
+    "here:",
+    process.argv
+)
+
+let htmlString = ReactDOMServer.renderToStaticMarkup(
+    <Wrapper>
+    </Wrapper>
+)
 
 fs.writeFile(
     './public/index.html',
