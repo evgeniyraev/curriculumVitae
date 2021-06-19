@@ -7,7 +7,7 @@
   "author": "Evgeniy Raev <evgeniy@raev.dev>",
   "license": "MIT",
   "scripts": {
-    "prestart": "webpack --progress --config webpack/webpack.dev --config-name static && node dist -d",
+    "prestart": "webpack --progress --config webpack/webpack.prod --config-name static && node dist -d",
     "start": "webpack serve --config webpack/webpack.dev",
     "build": "webpack --progress --config webpack/webpack.prod && node dist -p"
   },

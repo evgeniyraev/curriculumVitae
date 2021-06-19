@@ -1,6 +1,5 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const StaticRender = require('./StaticRender');
 
 const web = {
     mode:"production",
@@ -42,6 +41,7 @@ const web = {
 const serverConfig = {
   mode: "production",
   target: "node",
+    name:"static",
   node: {
     __dirname: false,
   },
