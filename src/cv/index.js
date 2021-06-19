@@ -1,5 +1,7 @@
 import React from "react";
-import './index.scss'; 
+import './index.scss';
+
+import Projects from './Projects';
 
 export default function CV() {
     return (
@@ -7,6 +9,7 @@ export default function CV() {
             className="CV"
         >
             Evgeniy Raev
+            <Projects/>
         </div>
     )
 }
