@@ -7,11 +7,9 @@
   "author": "Evgeniy Raev <evgeniy@raev.dev>",
   "license": "MIT",
   "scripts": {
+    "prestart": "webpack --progress --config webpack/webpack.dev --config-name static && node dist -d",
     "start": "webpack serve --config webpack/webpack.dev",
-    "build": "webpack --progress --config webpack/webpack.prod",
-    "build:old": "webpack --progress --config webpack/webpack.prod && npm run build:static",
-    "build:static": "npm run clear:imports && mkdir -p public && babel-node ./scripts/exportHTML.js",
-    "clear:imports": "find ./src/ -type f -exec sed -i '' -e '/.scss/d' {} \\;"
+    "build": "webpack --progress --config webpack/webpack.prod && node dist -p"
   },
   "dependencies": {
     "@babel/cli": "^7.14.5",
