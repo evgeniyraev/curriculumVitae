@@ -7,6 +7,7 @@ export default function Projects() {
             className="Projects"
         >
             List of all projects
+            Some Random text
         </div>
     )
 }
