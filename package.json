@@ -7,34 +7,29 @@
   "author": "Evgeniy Raev <evgeniy@raev.dev>",
   "license": "MIT",
   "scripts": {
-    "prestart": "webpack --progress --config webpack/webpack.prod --config-name static && node dist -d",
+    "prestart": "webpack --progress --config webpack/webpack.prod --config-name static && node dist -d && rm -rf dist",
     "start": "webpack serve --config webpack/webpack.dev",
     "build": "webpack --progress --config webpack/webpack.prod && node dist -p"
   },
   "dependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.5",
-    "@babel/node": "^7.14.5",
     "@babel/parser": "^7.14.5",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
-    "extract-loader": "^5.1.0",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "sass": "^1.34.1",
+    "sass": "^1.35.1",
     "sass-loader": "^12.1.0",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.2"
+    "style-loader": "^2.0.0"
   },
   "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
   }
 }
