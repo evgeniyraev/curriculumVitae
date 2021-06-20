@@ -10,6 +10,7 @@ export default function CV() {
         >
             Evgeniy Raev
             <Projects/>
+            <a href='./cv.pdf'>download</a>
         </div>
     )
 }
