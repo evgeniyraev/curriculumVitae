@@ -6,7 +6,7 @@ import CV from './cv';
 
 const mode = process.argv.some(a => a == "-d") ? "development" : "production" 
 
-let htmlString = ReactDOMServer.renderToStaticMarkup(
+let htmlString = "<!DOCTYPE html>" + ReactDOMServer.renderToStaticMarkup(
     <html>
         <head>
             <title>
@@ -36,7 +36,7 @@ let htmlString = ReactDOMServer.renderToStaticMarkup(
 
 fs.writeFile(
     './public/index.html',
-    "<!DOCTYPE html>"+htmlString,
+    htmlString,
     function (err,data)
     {
         if (err) {
@@ -45,3 +45,4 @@ fs.writeFile(
         console.log("html exported");
     }
 );
+
