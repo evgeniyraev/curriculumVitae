@@ -1,6 +1,6 @@
 {
   "name": "CV",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "this is a CV project",
   "main": "src",
   "repository": "git@github.com:evgeniyraev/curriculumVitae.git",
@@ -9,9 +9,10 @@
   "scripts": {
     "prestart": "webpack --progress --config webpack/webpack.prod --config-name static && node dist -d && rm -rf dist",
     "start": "webpack serve --config webpack/webpack.dev",
-    "build": "webpack --progress --config webpack/webpack.prod && node dist -p"
+    "build": "webpack --progress --config webpack/webpack.prod && node dist -p && node src/exportPdf.js"
   },
   "dependencies": {
+    "html-pdf-node": "^1.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
