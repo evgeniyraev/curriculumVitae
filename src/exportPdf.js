@@ -1,12 +1,31 @@
 const fs = require('fs');
 const pdf = require('html-pdf-node');
+const wrapper = require('../dist/wrapper.js').CV.default;
 
-var html = fs.readFileSync('./public/index.html', 'utf8');
+var css = fs.readFileSync('./public/styles.css', 'utf8');
 
-let options = { format: 'A4' };
+const mode = process.argv.some(a => a == "-d") ? "development" : "production" ;
 
-let file = { content: html };
-pdf.generatePdf(file, options).then(pdfBuffer => {
+const doctype = "<!DOCTYPE html>";
+
+fs.writeFile(
+    './public/index.html',
+    doctype + wrapper({cv:mode == "production"}),
+    function (err,data)
+    {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("html exported");
+    }
+);
+
+pdf.generatePdf({
+    content: doctype + wrapper({cv:true, css}),
+}, {
+    format: 'A4' 
+}).then(pdfBuffer => {
+
     fs.writeFile(
         './public/cv.pdf',
         pdfBuffer,
