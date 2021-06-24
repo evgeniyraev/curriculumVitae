@@ -1,5 +1,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const web = {
     mode:"production",
@@ -39,14 +40,11 @@ const web = {
 };
 
 const serverConfig = {
-  mode: "production",
+  mode: "development",
   target: "node",
-    name:"static",
-  node: {
-    __dirname: false,
-  },
+  name:"static",
   entry: {
-      "index.js": path.resolve(__dirname, "../src/wrapper.js"),
+      "wrapper.js": path.resolve(__dirname, "../src/wrapper.js"),
   },
   module: {
       rules: [
@@ -69,9 +67,28 @@ const serverConfig = {
   },
   output: {
       path: path.resolve(__dirname, "../dist"),
-    filename: "[name]",
+      filename: "[name]",
+      library: {
+          name:"CV",
+          type: 'commonjs',
+      }
   },
 };
+
+const print = {
+    ...serverConfig,
+    entry: {
+        "print.js": path.resolve(__dirname, "../src/wrapper.js"),
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'My App',
+            filename: 'print.html',
+            inject:false,
+            inlineSource: '.(css)$',
+        }),
+    ]
+}
 
 module.exports = [
     web,

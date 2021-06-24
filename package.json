@@ -7,9 +7,9 @@
   "author": "Evgeniy Raev <evgeniy@raev.dev>",
   "license": "MIT",
   "scripts": {
-    "prestart": "webpack --progress --config webpack/webpack.prod --config-name static && node dist -d && rm -rf dist",
+    "prestart": "webpack --progress --config webpack/webpack.prod --config-name static && node src/exportPdf.js -d && rm -rf dist",
     "start": "webpack serve --config webpack/webpack.dev",
-    "build": "webpack --progress --config webpack/webpack.prod && node dist -p && node src/exportPdf.js"
+    "build": "webpack --progress --config webpack/webpack.prod && node src/exportPdf.js"
   },
   "dependencies": {
     "html-pdf-node": "^1.0.7",
@@ -24,6 +24,7 @@
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.2",
     "mini-css-extract-plugin": "^1.6.0",
     "sass": "^1.35.1",
     "sass-loader": "^12.1.0",
