@@ -2,6 +2,7 @@ import React from "react";
 import './index.scss';
 
 import Projects from './Projects';
+import { projects } from './data';
 
 export default function CV() {
     return (
@@ -9,7 +10,10 @@ export default function CV() {
             className="CV"
         >
             Evgeniy Raev
-            <Projects/>
+            <Projects
+                data={projects}
+            />
+            
             <a href='./cv.pdf'>download</a>
         </div>
     )

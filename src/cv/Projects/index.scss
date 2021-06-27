@@ -1,7 +1,36 @@
 .Projects {
-    border: solid skyblue thin;
+    max-width:57em;
 
-    &:hover {
-        border: solid skyblue 1px;
+    & > article.Project {
+        border:solid thin black;
+        margin: 1em 0 0 0;
+
+
+        &:last-child {
+            margin-bottom:1em;
+        }
+
+        & > section {
+            display:flex;
+
+            &:not(:last-child) {
+                border-bottom: solid thin black;
+            }
+
+            & > div {
+                padding: 0.5em;
+            }
+
+            & > .title {
+                flex:0 0 8em;
+                border-right: solid thin black;
+
+                
+            }
+            & > .description {
+                padding-left: 0.5em;
+            }
+        }
+
     }
 }
