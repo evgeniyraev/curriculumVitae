@@ -6,6 +6,12 @@
         margin: 1em 0 0 0;
         border-radius:0.5em;
 
+        @media print {
+            & {
+                break-inside: avoid;
+            }
+        }
+
 
         &:last-child {
             margin-bottom:1em;
