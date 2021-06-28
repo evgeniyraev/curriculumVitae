@@ -14,7 +14,7 @@ export default function CV() {
                 data={projects}
             />
             
-            <a href='./Evgeniy Raev.pdf' download>download</a>
+            <a href='./EvgeniyRaev.pdf' download>download</a>
         </div>
     )
 }
