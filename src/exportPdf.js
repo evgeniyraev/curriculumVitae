@@ -2,7 +2,7 @@ const fs = require('fs');
 const pdf = require('html-pdf-node');
 const wrapper = require('../dist/wrapper.js').CV.default;
 
-var css = fs.readFileSync('./public/styles.css', 'utf8') ?? "";
+var css = fs.readFileSync('./public/styles.css', 'utf8');
 
 const mode = process.argv.some(a => a == "-d") ? "development" : "production" ;
 
@@ -27,7 +27,7 @@ pdf.generatePdf({
 }).then(pdfBuffer => {
 
     fs.writeFile(
-        './public/EvgeniyRaev.pdf',
+        './public/Evgeniy Raev.pdf',
         pdfBuffer,
         function (err,data)
         {
