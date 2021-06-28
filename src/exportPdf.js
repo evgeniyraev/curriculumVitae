@@ -27,7 +27,7 @@ pdf.generatePdf({
 }).then(pdfBuffer => {
 
     fs.writeFile(
-        './public/Evgeniy Raev.pdf',
+        './public/EvgeniyRaev.pdf',
         pdfBuffer,
         function (err,data)
         {
