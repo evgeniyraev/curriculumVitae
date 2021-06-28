@@ -15,5 +15,4 @@ let skills = projects.reduce((list, {stack}) => {
 export {
     skills,
     projects,
-
 }

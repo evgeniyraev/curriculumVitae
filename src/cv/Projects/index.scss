@@ -1,33 +1,34 @@
 .Projects {
     max-width:57em;
 
-    & > article.Project {
-        border:solid thin black;
+    & article.Project {
+        border:solid thin gray;
         margin: 1em 0 0 0;
+        border-radius:0.5em;
 
 
         &:last-child {
             margin-bottom:1em;
         }
 
-        & > section {
+        & section {
             display:flex;
 
             &:not(:last-child) {
-                border-bottom: solid thin black;
+                border-bottom: solid thin gray;
             }
 
-            & > div {
+            & div {
                 padding: 0.5em;
             }
 
-            & > .title {
+            & .title {
                 flex:0 0 8em;
-                border-right: solid thin black;
+                border-right: solid thin gray;
 
                 
             }
-            & > .description {
+            & .description {
                 padding-left: 0.5em;
             }
         }
