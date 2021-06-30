@@ -18,7 +18,12 @@ const web = {
                 test: /\.s[ac]ss$/i,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    "css-loader",
+                    {
+                        loader:"css-loader",
+                        options: {
+                            url: false
+                        }
+                    },
                     "sass-loader",
                 ],
             },
@@ -51,7 +56,12 @@ const serverConfig = {
             {
                 test: /\.s[ac]ss$/i,
                 use: [
-                    "css-loader",
+                    {
+                        loader:"css-loader",
+                        options: {
+                            url: false
+                        }
+                    },
                     "sass-loader",
                 ],
             },

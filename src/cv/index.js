@@ -9,7 +9,8 @@ export default function CV() {
         <div
             className="CV"
         >
-            Evgeniy Raev
+            <img className="photo"/>
+            <h1>Evgeniy Raev</h1>
             <Projects
                 data={projects}
             />

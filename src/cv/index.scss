@@ -1,2 +1,15 @@
 .CV {
+    & img.photo {
+        grid-area:photo;
+        margin:1em;
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;   
+        background-image: url(./photo.jpg);
+        background-size: cover;
+        border-radius:50%;
+        border: white 0.7em solid;
+        filter: drop-shadow(1px 1px 4px gray);
+        width:120px;
+        height:120px;
+    }
 }
