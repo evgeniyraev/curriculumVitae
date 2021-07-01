@@ -4,7 +4,7 @@
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2021 - present",
         "description": "Creating different tools for assisting game development. The tools include faster assets generation, hot swapping of updated textures",
-        "stack":"docker\nwebpack\nwebpack plugins\nnode\nsocket files\nlinux\nsocket\nbash\ndocker composer\npixi",
+        "stack":"docker\nwebpack\nwebpack plugins\nnode\nsocket files\nlinux\nsocket\nbash\ndocker composer\npixi\ngit / GitLab",
         "responsibilities":"Researching, desingling and developing tools to be regularry used by other devs"
     },
     {

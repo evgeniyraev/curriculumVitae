@@ -1,8 +1,12 @@
 .Projects {
 
+    & > h2 {
+        margin:0;
+    }
+
     & article.Project {
         border:solid thin gray;
-        margin: 1em 0 0 0;
+        margin: 2em 0 0 0;
         border-radius:0.5em;
 
         @media print {
@@ -13,25 +17,38 @@
 
 
         &:last-child {
-            margin-bottom:1em;
+            margin-bottom:2em;
         }
 
         & section {
-            display:flex;
+
+            &.name {
+                font-size:1.6rem;
+                padding:0.2em 0;
+            }
+
+            &.employer {
+            }
+            &.period {
+                color:gray;
+                padding-bottom:1.5em;
+            }
+            &.description, &.responsibilities {
+                font-size:1.2rem;
+            }
+            &.stack {
+                padding:1em 0.5em 0.5em 0.5em;
+                display:flex;
+                font-weight:bold;
+            }
 
             &:not(:last-child) {
-                border-bottom: solid thin gray;
             }
 
             & div {
-                padding: 0.5em;
             }
 
             & .title {
-                flex:0 0 8em;
-                border-right: solid thin gray;
-
-                
             }
             & .description {
                 padding-left: 0.5em;
