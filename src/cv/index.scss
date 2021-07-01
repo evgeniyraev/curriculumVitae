@@ -1,23 +1,46 @@
 .CV {
     max-width:57em;
-    background:rgba(21, 135, 140, 0.26);
     padding:1em 5em;
 
-    & > header {
-        border:solid thin gray;
-        padding: 0.5em;
-        border-radius:0.5em;
-
-        display:grid;
-        grid-template-columns: 170px auto;
-        grid-template-rows: 4em auto;
-        grid-template-areas:
-            "photo title"
-            "photo about"
+    @media print {
+        & {
+            padding: 1em;
+        }
     }
 
+    & > header {
+
+        display:grid;
+        grid-template-columns: calc(120px + 2*0.7em + 1em) auto;
+        grid-template-rows: 1.5em auto;
+        gap:0.5em;
+        padding:1em 0.5em;
+        grid-template-areas:
+            "photo title"
+            "photo about";
+        
+        & > div.photo {
+            grid-area:photo;
+
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        & > h1 {
+            margin:0;
+        }
+
+        & > p {
+            line-height: 1.4em;
+
+            font-size: 1.2em;
+        }
+    }
+
+
+
     & img.photo {
-        grid-area:photo;
         -webkit-print-color-adjust: exact !important;
         color-adjust: exact !important;   
         background-image: url(./photo.jpg);

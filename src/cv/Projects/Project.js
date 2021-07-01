@@ -8,44 +8,49 @@ export default function Project({
     stack,
     responsibilities,
 }) {
+
     return (
         <article
             className="Project"
         >
             { [
                 {
-                    title:"Project",
                     data:name,
+                    className:"name"
                 },
                 {
-                    title:"Employer",
                     data:employer,
+                    className:"employer"
                 },
                 {
-                    title:"Period",
                     data:period,
+                    className:"period"
                 },
                 {
-                    title:"Description",
                     data:description,
+                    className:"description"
                 },
                 {
-                    title:"Stack",
-                    data:stack.split("\n"),
-                },
-                {
-                    title:"Responsibilities",
                     data:responsibilities,
+                    className:"responsibilities"
                 },
-            ].map(({title, data}, i) => (
+                {
+                    title:"Stack:",
+                    data:stack.split("\n"),
+                    className:"stack"
+                },
+            ].map(({title, data, className}, i) => (
                 <section
                     key={i}
+                    className={className}
                 >
-                    <div
-                        className="title"
-                    >
-                        { title }
-                    </div>
+                    { title && (
+                        <div
+                            className="title"
+                        >
+                            { title }
+                        </div>
+                    )}
                     <div
                         className="description"
                     >
