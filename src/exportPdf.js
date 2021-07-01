@@ -39,7 +39,10 @@ fs.writeFile(
 const generatePDF = async () => {
     const output = path.resolve('./public/Evgeniy Raev.pdf');
 
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    });
     const page = await browser.newPage();
     await page.goto(
         'file://'+printHTMLpath,
@@ -57,7 +60,7 @@ const generatePDF = async () => {
 
     fs.unlink(printHTMLpath,  (err) => {
         if (err) throw err;
-        console.log('successfully deleted /tmp/hello');
+        console.log('deleted temp html');
     });
 }
 
