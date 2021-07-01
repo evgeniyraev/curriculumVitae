@@ -1,7 +1,23 @@
 .CV {
+    max-width:57em;
+    background:rgba(21, 135, 140, 0.26);
+    padding:1em 5em;
+
+    & > header {
+        border:solid thin gray;
+        padding: 0.5em;
+        border-radius:0.5em;
+
+        display:grid;
+        grid-template-columns: 170px auto;
+        grid-template-rows: 4em auto;
+        grid-template-areas:
+            "photo title"
+            "photo about"
+    }
+
     & img.photo {
         grid-area:photo;
-        margin:1em;
         -webkit-print-color-adjust: exact !important;
         color-adjust: exact !important;   
         background-image: url(./photo.jpg);
@@ -12,4 +28,6 @@
         width:120px;
         height:120px;
     }
+
+
 }

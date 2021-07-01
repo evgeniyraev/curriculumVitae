@@ -1,5 +1,4 @@
 .Projects {
-    max-width:57em;
 
     & article.Project {
         border:solid thin gray;
@@ -36,6 +35,17 @@
             }
             & .description {
                 padding-left: 0.5em;
+                
+                & > .element {
+
+                    &:not(:first-child) {
+                        padding-left:0.5em;
+                    }
+
+                    &:not(:last-child):after {
+                        content:","
+                    }
+                }
             }
         }
 
