@@ -7,7 +7,7 @@ export default function Projects({data}) {
         <div
             className="Projects"
         >
-            Projects:
+            Proffesional Experience:
             { data.map((project, i) => (
                 <Project
                     key={i}

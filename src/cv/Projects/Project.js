@@ -14,27 +14,27 @@ export default function Project({
         >
             { [
                 {
-                    title:"name",
+                    title:"Project",
                     data:name,
                 },
                 {
-                    title:"employer",
+                    title:"Employer",
                     data:employer,
                 },
                 {
-                    title:"period",
+                    title:"Period",
                     data:period,
                 },
                 {
-                    title:"description",
+                    title:"Description",
                     data:description,
                 },
                 {
-                    title:"stack",
-                    data:stack,
+                    title:"Stack",
+                    data:stack.split("\n"),
                 },
                 {
-                    title:"responsibilities",
+                    title:"Responsibilities",
                     data:responsibilities,
                 },
             ].map(({title, data}, i) => (
@@ -49,7 +49,14 @@ export default function Project({
                     <div
                         className="description"
                     >
-                        { data }
+                        { (data instanceof Array) && data.map((el, i) => (
+                            <span
+                                className="element"
+                                key={i}
+                            >
+                                { el }
+                            </span>
+                        )) || data}
                     </div>
                 </section>
             ))}

@@ -1,51 +1,51 @@
 [
     {
+        "name": "Tools for Game Development",
+        "employer": "AWD - Atom, Weiner, deVRealm",
+        "period": "2021 - present",
+        "description": "Creating different tools for assisting game development. The tools include faster assets generation, hot swapping of updated textures",
+        "stack":"docker\nwebpack\nwebpack plugins\nnode\nsocket files\nlinux\nsocket\nbash\ndocker composer\npixi",
+        "responsibilities":"Researching, desingling and developing tools to be regularry used by other devs"
+    },
+    {
+        "name": "Junior Academy Trainer",
+        "employer": "AWD - Atom, Weiner, deVRealm",
+        "period": "2020 - present",
+        "description": "Conducing technical trainings for game development to juniors who need emporvmenet",
+        "stack": "JS\nReact JS\nNode\nwebpack\nPixiJS\nWebGL\ndijkstra, a*\nZoom\nVS Code, live share\ngit / Bitbucket",
+        "responsibilities": "Explaining each design pattern and programming concepts for common problems like memory leak\nExplaining concepts via graphical meaning like drawing and design apps\nGiving individual tasks and do code reviews\nGiving feedback and points for improvement"
+    },
+    {
         "name": "Curriculum Vitae",
         "employer": "Personal",
         "period": "2021",
         "description": "",
-        "stack":"React JS\nwebpack\nAWS\nCode Pipeline\ngit / GitHub\nnode\nRoute 53\nCoud Front\nLambda\nS3",
+        "stack":"React JS\nwebpack\nAWS\nCode Pipeline\ngit / GitHub\nnode\npuppeteer\nRoute 53\nCoud Front\nLambda\nS3",
         "responsibilities":""
     },
     {
-        "name": "Game development tools ",
-        "employer": "AWD",
-        "period": "2021 - present",
-        "description": "",
-        "stack":"docker\nwebpack\nwebpack plugins\nnode\nsocket files\nlinux\nsocket\nbash\ndocker composer\npixi\n",
-        "responsibilities":"researching, desingling and developing tools to be regularry used by other devs"
-    },
-    {
-        "name": "Junior academy",
-        "employer": "AWD",
-        "period": "2020 - present",
-        "description": "Courses for demonstrating the need of most popular design patterns.",
-        "stack": "JS\nReact JS\nNode\nwebpack\nPixiJS\nWebGL\ndijkstra, a*\nZoom\nVS Code, live share\ngit / Bitbucket",
-        "responsibilities": "creating task for highlighting the benefits of each design pattern\nexpelling clearly programming concepts and common problems, for example memory leak\nexplaining concepts via graphical meaning like drawing and design apps\ngiving individual tasks and do code reviews\ngiving feedback and pointes for improvement"
-    },
-    {
-        "name": "DHL web solutions",
-        "employer": "AWD",
+        "name": "DHL Web Solutions",
+        "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2018 - 2021",
-        "description": "Team lead for the frontend team of 7 people and being responsible for the developed solutions.\nHiring manager for newly created dedicated frontend team and conducting technical interviews.\nCreating the web interfaces for logistic software.\nThe app have to enhance the work of the workers involved in the whole process.\nDeveloping new support tools for the development process like Design Tool or Translation Tool. Some developed as cli apps, some as webpack plugins, some as VSCode plugins, some directly communicate with Jenkins.\nMy main goal was to create environment for all future projects to be created, maintained and implement new features with ease.\nFor the mobile project to be possible to add as mani different SDK's as needed",
+        "description": "Team lead for the frontend team of 7 people and responsible for the developed solutions.\nHiring manager for newly created dedicated frontend team and conducting technical interviews.\nCreating the web interfaces for logistic software.\nThe app have to enhance the work of the workers involved in the whole process.\nDeveloping new support tools for the development process like Design Tool or Translation Tool. They are developed as cli apps, webpack plugins, VSCode plugins, directly communicate with Jenkins.\nMy main goal was to create environment for all future projects to be created, maintained and implement new features with ease.\nFor the mobile project to be possible to add as mani different SDK's as needed",
         "stack": "HTML\nCSS\nReact JS\nwebpack\nwebpack plugins \nmulti solutions apps\nnpm private repo\nbabel\nSwagger\nnode / cli apps \nnode custom modules \nCI/CD\nJenkins\ngit / gerrit\nZebra Enterprise Browser\nHoneywell Enterprise Browser\nAdobe XD",
-        "responsibilities": "whole projects estemations\ncreating UX\nsolution architecture\nteam task management\ncreating dev ops tools\npair programing\npresentations/demos\nteam expansions\nplaning and preparing for eventual scenarios (most of them become true)\nremote problem solving"
+        "responsibilities": "Whole projects estemations\ncreating UX\nsolution architecture\nteam task management\ncreating dev ops tools\npair programing\npresentations/demos\nteam expansions\nplaning and preparing for eventual scenarios (most of them become true)\nremote problem solving"
     },
     {
         "name": "ClosetsToGo",
-        "employer": "AWD",
+        "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2019 - preset",
         "description": "Web solution for semi-CAD system for assisting designers in drawing and price calcuation",
         "stack": "Flash\nActionScript\nHTML\nJS\nWebGL\nWindows Server\nMySQL\nPHP\nGit / Github Enterprise",
-        "responsibilities": "detailed project estimation\nsolutions R&D \ndirect client communication\ndev environment setup\nexisting codebase extension\npair programing"
+        "responsibilities": "Detailed project estimation\nsolutions R&D \ndirect client communication\ndev environment setup\nexisting codebase extension\npair programing"
     },
     {
         "name": "Scenarious",
-        "employer": "AWD",
+        "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2018 - 2019",
         "description": "Web tool assisting big data analytics and visualization. ",
         "stack": "HTML\nCSS\nReact JS\nRedux\ngit / Bitbucket",
-        "responsibilities": "building frontend solution\nproject architecture\ndesign implementation"
+        "responsibilities": "Building frontend solution\nproject architecture\ndesign implementation"
     },
     {
         "name": "Interactive Video Terminals",
@@ -53,39 +53,39 @@
         "period": "2018",
         "description": "Interactive Terminal for playing video media.\n\nMain challenge is the assets are big files over 10GB and how to be downloaded from the device and comfortable to maintain for the video professional ",
         "stack": "HTML\nCSS\nReact JS\nRaspberry PI\nlinux\ngit / AWS Code Commit\nAWS\nCloud Build\nCI/CD",
-        "responsibilities": "building web UI\nsetting up linux for always on operation\nnode processes maintenance"
+        "responsibilities": "Building web UI\nsetting up linux for always on operation\nnode processes maintenance"
     },
     {
         "name": "RouletteSports",
-        "employer": "AWD",
+        "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2017 - 2018",
         "description": "Mobile and web games for betting using not standard UI ",
         "stack": "HTML\nCSS\nReact JS\nReact Native\nJava (Android)\ngit / Bitbucket",
-        "responsibilities": "migrating existing Android codebase to React Native\nimplementing ReactJS based on React Nave solution\ncommon business logic and communication core between new React Projects"
+        "responsibilities": "Migrating existing Android codebase to React Native\nimplementing ReactJS based on React Nave solution\ncommon business logic and communication core between new React Projects"
     },
     {
         "name": "Interactive Map v3",
-        "employer": "webnovel",
+        "employer": "Webnovel",
         "period": "2016 - 2017",
         "description": "Creating 2.5D Interactive map with navigation used for indoor or outdoor purposes.\nEvery element can be changed from the backend.\nThe targets are web, iOS, Android\nThe solution is used in MagaMall, Iniacni and Marinela Hotel",
         "stack": "HTML\nCSS\nReact JS\nPixiJS\nWebGL\nnode\nAWS\nMySQL\nSwift\nGameKit\nJava (Android)\ngit / git server\nLISP\nMaxScript",
-        "responsibilities": "shared crossplatform assets\ncashing on device assets\nCanvas animation\nSprite-sheet generation \npath finding algorithms\nGPU calculation\nhit map implementation\nquad tree rectangle finding\nAutoCAD and Photoshop assets extraction\n3Ds Max rendering queue\nteam expansion\nlow spec support"
+        "responsibilities": "Shared crossplatform assets\ncashing on device assets\nCanvas animation\nSprite-sheet generation \npath finding algorithms\nGPU calculation\nhit map implementation\nquad tree rectangle finding\nAutoCAD and Photoshop assets extraction\n3Ds Max rendering queue\nteam expansion\nlow spec support"
     },
     {
         "name": "Tropicalla ",
-        "employer": "confetti gaming",
+        "employer": "Confetti gaming",
         "period": "2014 - 2016",
         "description": "2,5D Flash Game\n",
         "stack": "ActionScript\nStarling",
-        "responsibilities": "existing codebase maintenance\nadding features\nperformance optimization\nGPU optimization\noverall project refactoring\nteam expansion"
+        "responsibilities": "Existing codebase maintenance\nadding features\nperformance optimization\nGPU optimization\noverall project refactoring\nteam expansion"
     },
     {
-        "name": "Tinder Clone",
-        "employer": "webnovel",
+        "name": "Dating App",
+        "employer": "Webnovel",
         "period": "2014",
         "description": "iOS native app",
         "stack": "Swift\nCocaPods\ngit / git server",
-        "responsibilities": "design implementation \ndirect client communication"
+        "responsibilities": "Design implementation \ndirect client communication"
     },
     {
         "name": "Paradise Center",
@@ -93,11 +93,11 @@
         "period": "2014 - 2017",
         "description": "General Service\nSetting up the web server.\niOS and Android component development.\nInteractive kiosk solution.\nSave parked location via QR.",
         "stack": "linux\nUbuntu Server \nX11\nApache\nnode\nMySQL\nssh\nQR",
-        "responsibilities": "pair programing\ntech consultation\nteam expansion\nnon-standard solution R&D\nlarge unique poster printing solution"
+        "responsibilities": "Pair programing\ntech consultation\nteam expansion\nnon-standard solution R&D\nlarge unique poster printing solution"
     },
     {
         "name": "Interactive Map v2",
-        "employer": "freelance",
+        "employer": "Freelance",
         "period": "2014",
         "description": "Creating 2.5D Interactive map with navigation used for indoor purposes.\nEvery element can be changed from the backend.\nTarget platforms web, iOS\nThe solution is used in Paradise and GrandMall Varna",
         "stack": "HTML\nCSS\nJS / Vanilla\nCanvas\nSwift",
@@ -109,7 +109,7 @@
         "period": "2013 - 2014",
         "description": "Poker client for web and desktop.\nClient has to support nice on table items animations, as many same running instance ruining in the same time. ",
         "stack": "ActionScript\nFlex",
-        "responsibilities": "business logic flow optimization\nperformance optimization\nruntime assets generation and caching\nc++ code transfer to ActionScript"
+        "responsibilities": "Business logic flow optimization\nperformance optimization\nruntime assets generation and caching\nc++ code transfer to ActionScript"
     },
     {
         "name": "Interactive Map v1",
@@ -117,7 +117,7 @@
         "period": "2012",
         "description": "Creating 2.5D Interactive map with navigation used for indoor purposes.\nEvery element can be changed from the backend.\nThe solution was used in TheMall and Paradise.",
         "stack": "ActionScript",
-        "responsibilities": "assets generation\nrequests optimization\njavascript ActionScrip communication"
+        "responsibilities": "Assets generation\nrequests optimization\njavascript ActionScrip communication"
     },
     {
         "name": "BingoGame",
@@ -125,7 +125,7 @@
         "period": "2011 - 2013",
         "description": "Bingo frontend implementation for touch screens.\nI had co convince backend devs that frontend can have business logic.",
         "stack": "ActionScript",
-        "responsibilities": "business logic implementation\nclient server socket communication"
+        "responsibilities": "Business logic implementation\nclient server socket communication"
     },
     {
         "name": "SerchMagazine",
@@ -133,7 +133,7 @@
         "period": "2011",
         "description": "Mobile App allowing user to read a magazine.\nMain challenge was the user had to smoothly pan zoomIn and zoomOut of a large multipage document. ",
         "stack": "ActionScript\nAdobe Air\niOS",
-        "responsibilities": "assets generation and preparation\nbitmap manipulations"
+        "responsibilities": "Assets generation and preparation\nbitmap manipulations"
     },
     {
         "name": "Interactive Banner",
@@ -141,14 +141,14 @@
         "period": "2010",
         "description": "banner playing internet radio",
         "stack": "ActionScript",
-        "responsibilities": "stream playing"
+        "responsibilities": "Stream playing"
     },
     {
-        "name": "+ many tools, scripts, and R&D",
-        "employer": "",
+        "name": "Personal Prjects",
+        "employer": "Personal",
         "period": "2005 - present",
         "description": "Many small single or multi use cli, or desktop apps, or serverless api",
         "stack": "node\nbash\nActionScript\nElectron\nsiri shortcuts\nMySQL\nVisual Basic\nLambda\n...",
-        "responsibilities": "excel data extraction\nnumber to text generator\nauto click automations\ndata visualization\ndata storage\nWoW addons\nrendering randomization\nmany more"
+        "responsibilities": "Excel data extraction\nnumber to text generator\nauto click automations\ndata visualization\ndata storage\nWoW addons\nrendering randomization\nmany more"
     }
 ]
