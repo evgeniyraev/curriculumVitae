@@ -20,9 +20,10 @@ fs.writeFile(
         console.log("html exported");
     }
 );
+const printHTMLpath = path.resolve('./public/print.html');
 
 fs.writeFile(
-    './public/print.html',
+    printHTMLpath,
     doctype + wrapper({cv:true}),
     function (err,data)
     {
@@ -36,15 +37,25 @@ fs.writeFile(
 );
 
 const generatePDF = async () => {
+    const output = path.resolve('./public/Evgeniy Raev.pdf');
+
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
-    await page.goto('file://'+path.resolve('./public/print.html'), {waitUntil: 'networkidle0'});
-    const pdf = await page.pdf({ format: 'A4', path:'./public/Evgeniy Raev.pdf'});
+    await page.goto(
+        'file://'+printHTMLpath,
+        {
+            waitUntil: 'networkidle0'
+        });
+
+    const pdf = await page.pdf({
+        format: 'A4',
+        path:output,
+    });
 
 
     await browser.close();
 
-    fs.unlink('./public/print.html',  (err) => {
+    fs.unlink(printHTMLpath,  (err) => {
         if (err) throw err;
         console.log('successfully deleted /tmp/hello');
     });
