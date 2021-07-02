@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
 body, html{
     margin:0;
     padding:0;
+    font-family: 'Lora', serif;
 }
 
 #app {
     width:100%;
     display:flex;
     justify-content: center;
+}
+
+h1, h2, {
+    margin:0;
+}
+
+h1 {
+    font-size:2.2rem;
+}
+
+h2 {
+    font-size:2rem;
 }

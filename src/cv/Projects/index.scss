@@ -1,13 +1,11 @@
 .Projects {
 
-    & > h2 {
-        margin:0;
-    }
-
     & article.Project {
         border:solid thin gray;
         margin: 2em 0 0 0;
         border-radius:0.5em;
+        background:white;
+        filter: drop-shadow(0px 0px 0.5rem rgba(128, 128, 128, 0.1));
 
         @media print {
             & {
@@ -31,13 +29,13 @@
             }
             &.period {
                 color:gray;
-                padding-bottom:1.5em;
+                padding-bottom:2em;
             }
             &.description, &.responsibilities {
                 font-size:1.2rem;
             }
             &.stack {
-                padding:1em 0.5em 0.5em 0.5em;
+                padding:3em 0.5em 0.5em 0.5em;
                 display:flex;
                 font-weight:bold;
             }
@@ -60,11 +58,10 @@
                     }
 
                     &:not(:last-child):after {
-                        content:","
+                        content:",";
                     }
                 }
             }
         }
-
     }
 }
