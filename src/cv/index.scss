@@ -11,13 +11,14 @@
     & > header {
 
         display:grid;
-        grid-template-columns: calc(120px + 2*0.7em + 1em) auto;
-        grid-template-rows: 1.5em auto;
+        grid-template-columns: calc(160px + 2*0.7em + 1em) auto;
+        grid-template-rows: min-content min-content min-content;
         gap:0.5em;
         padding:1em 0.5em;
         grid-template-areas:
             "photo title"
-            "photo about";
+            "photo about"
+            "links about";
         
         & > div.photo {
             grid-area:photo;
@@ -28,17 +29,37 @@
         }
 
         & > h1 {
-            margin:0;
+            grid-area:title;
         }
 
         & > p {
+            grid-area:about;
             line-height: 1.4em;
 
             font-size: 1.2em;
         }
+
+        & > .contacts {
+            margin:0;
+
+            & > dt {
+                padding:0.2em;
+                display: flex;
+                align-content: center;
+
+                & > img {
+                    width:1.2em;
+                    height:1.2em;
+                }
+                & > a {
+                    line-height:1em;
+                }
+                & > * ~ a {
+                    padding-left:0.2em;
+                }
+            }
+        } 
     }
-
-
 
     & img.photo {
         -webkit-print-color-adjust: exact !important;
@@ -48,9 +69,7 @@
         border-radius:50%;
         border: white 0.7em solid;
         filter: drop-shadow(1px 1px 4px gray);
-        width:120px;
-        height:120px;
+        width:160px;
+        height:160px;
     }
-
-
 }
