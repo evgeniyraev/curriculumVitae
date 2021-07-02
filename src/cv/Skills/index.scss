@@ -1,0 +1,26 @@
+article.Skills {
+
+    & > section {
+        max-width:100%;
+
+        & div {
+            display:flex;
+            flex-wrap:wrap;
+        }
+
+        & span {
+
+            &:not(:first-child):before {
+                content:" ",
+            }
+            &:not(:first-child) {
+                padding-left:0.3em;
+            }
+
+            &:not(:last-child):after {
+                content:", ";
+            }
+        }
+    }
+
+}
