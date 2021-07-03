@@ -10,6 +10,7 @@ header.About {
         "links about";
     gap:0.5em;
 
+
     & > div.photo {
         grid-area:photo;
         
@@ -41,6 +42,22 @@ header.About {
         filter: drop-shadow(1px 1px 4px gray);
         width:160px;
         height:160px;
+    }
+    
+    @media screen and (max-width: 500px) {
+        & {
+            grid-template-columns: 1fr;
+            grid-template-rows: min-content;
+            grid-template-areas:
+                "photo"
+                "title"
+                "links"
+                "about";
+        }
+
+        & > h1 {
+            text-align:center;
+        }
     }
 
 }

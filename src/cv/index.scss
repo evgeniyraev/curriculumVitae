@@ -1,6 +1,12 @@
 .CV {
     max-width:57em;
     padding:1em 0;
+    
+    @media screen and (max-width: 57em) {
+        & h2 {
+            padding-left:0.5em;
+        }
+    }
 
     @media print {
         & {
