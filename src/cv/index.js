@@ -2,9 +2,10 @@ import React from "react";
 import './index.scss';
 
 import About from './About';
-import Projects from './Projects';
 import Skills from './Skills';
+import Projects from './Projects';
 import Education from './Education';
+import Download from './Download';
 import { projects } from './data';
 
 export default function CV() {
@@ -13,7 +14,7 @@ export default function CV() {
             className="CV"
         >
             <About/>
-            <a href='./Evgeniy Raev.pdf' download>download</a>
+            <Download/>
             <Skills
             />
             <Projects
