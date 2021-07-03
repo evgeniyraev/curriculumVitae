@@ -1,9 +1,10 @@
 import React from "react";
+import './index.scss';
 
 export default function Contacts() {
     return (
         <dl
-            className="contacts"
+            className="Contacts"
         >
             <dt>
                 <a href="mailto:evgeniy@raev.dev?subject=Big%20News&body=Body-goes-here">
@@ -21,21 +22,17 @@ export default function Contacts() {
                 </a>
             </dt>
             <dt>
-                <img
-                    className="linkedin"
-                    src="./linkedin.svg"
-                />
-                <a href="www.linkedin.com/in/evgeniy-raev">
-                    LinkedIn
-                </a>
-            </dt>
-            <dt>
-                <img
-                    className="github"
-                    src="./github.svg"
-                />
                 <a href="https://github.com/evgeniyraev/">
-                    GitHub
+                    <img
+                        className="github"
+                        src="./github.svg"
+                    />
+                </a>
+                <a href="www.linkedin.com/in/evgeniy-raev">
+                    <img
+                        className="linkedin"
+                        src="./linkedin.svg"
+                    />
                 </a>
             </dt>
         </dl>

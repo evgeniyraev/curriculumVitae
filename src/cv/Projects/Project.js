@@ -45,15 +45,12 @@ export default function Project({
                     className={className}
                 >
                     { title && (
-                        <div
+                        <h3
                             className="title"
                         >
                             { title }
-                        </div>
+                        </h3>
                     )}
-                    <div
-                        className="description"
-                    >
                         { (data instanceof Array) && data.map((el, i) => (
                             <span
                                 className="element"
@@ -61,8 +58,13 @@ export default function Project({
                             >
                                 { el }
                             </span>
-                        )) || data}
-                    </div>
+                        )) || (
+                            <div
+                                className="description"
+                            >
+                                { data }
+                            </div>
+                        )}
                 </section>
             ))}
         </article>

@@ -4,6 +4,7 @@ import './index.scss';
 import Contacts from './Contacts';
 import Projects from './Projects';
 import Skills from './Skills';
+import Education from './Education';
 import { projects } from './data';
 
 export default function CV() {
@@ -23,14 +24,18 @@ export default function CV() {
 
             </header>
 
+            <a href='./Evgeniy Raev.pdf' download>download</a>
+
             <Skills
             />
 
             <Projects
                 data={projects}
             />
+
+            <Education
+            />
             
-            <a href='./Evgeniy Raev.pdf' download>download</a>
         </div>
     )
 }
