@@ -1,0 +1,26 @@
+.Download {
+    display:flex;
+    flex-direction: row-reverse;
+
+    @media print {
+        display:none;
+    }
+
+    & a {
+        padding:1em 1.5em;
+        border-radius:2em;
+        background-color:black;
+        color:white;
+        text-decoration: none;
+        font-weight:600;
+        font-size:0.7em;
+        
+        &:not(:last-child) {
+            margin-left:0.5em;
+        }
+        
+        &:visited {
+            color:white;
+        }
+    }
+}
