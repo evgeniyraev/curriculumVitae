@@ -108,10 +108,11 @@ export default function Skills() {
                         </h3>
                         {list.map((el, i) => (
                             <span
-                            key={i}
-                        >
+                                key={i}
+                                className="element"
+                            >
                                 {el}
-                        </span>
+                            </span>
                         ))}
                     </section>
                 ))}

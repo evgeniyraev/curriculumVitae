@@ -8,7 +8,6 @@ export default function Project({
     stack,
     responsibilities,
 }) {
-
     return (
         <article
             className="Project"

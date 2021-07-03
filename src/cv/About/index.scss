@@ -1,0 +1,46 @@
+header.About {
+    padding:1em 0.5em;
+
+    display:grid;
+    grid-template-columns: calc(160px + 2*0.7em + 1em) auto;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas:
+        "photo title"
+        "photo about"
+        "links about";
+    gap:0.5em;
+
+    & > div.photo {
+        grid-area:photo;
+        
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & > h1 {
+        grid-area:title;
+        
+        margin:0;
+    }
+
+    & > p {
+        grid-area:about;
+
+        line-height: 1.4em;
+        font-size: 1.2em;
+    }
+
+    & img.photo {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;   
+        background-image: url(./photo.jpg);
+        background-size: cover;
+        border-radius:50%;
+        border: white 0.7em solid;
+        filter: drop-shadow(1px 1px 4px gray);
+        width:160px;
+        height:160px;
+    }
+
+}

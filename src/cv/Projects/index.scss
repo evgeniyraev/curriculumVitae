@@ -1,24 +1,11 @@
 .Projects {
 
     & article.Project {
-        border-width:thin;
-        border-style:solid none;
-        border-color:gray;
-        margin: 2em 0 0 0;
-        //border-radius:0.5em;
-        background:white;
-        padding:0.5em;
-        filter: drop-shadow(0px 0px 0.5rem rgba(128, 128, 128, 0.1));
 
         @media print {
             & {
                 break-inside: avoid;
             }
-        }
-
-
-        &:last-child {
-            margin-bottom:2em;
         }
 
         & section {
@@ -27,42 +14,17 @@
                 font-size:1.6rem;
                 padding:0.2em 0;
             }
-
-            &.employer {
-            }
             &.period {
                 color:gray;
                 padding-bottom:2em;
             }
-            &.description, &.responsibilities {
+            &.description {
+
+            }
+            &.responsibilities {
             }
             &.stack {
 
-            }
-
-            &:not(:last-child) {
-            }
-
-            & h3 {
-                display:inline-block;
-            }
-
-            & div {
-            }
-
-            & .title {
-            }
-            & .description {
-            }
-            & .element {
-
-                &:not(:first-child) {
-                    padding-left:0.5em;
-                }
-
-                &:not(:last-child):after {
-                    content:",";
-                }
             }
         }
     }
