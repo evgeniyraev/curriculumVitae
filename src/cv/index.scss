@@ -1,6 +1,6 @@
 .CV {
     max-width:57em;
-    padding:1em 5em;
+    padding:1em 0;
 
     @media print {
         & {
@@ -8,48 +8,42 @@
         }
     }
 
-    & > header {
+    & article {
+        margin: 2em 0 0 0;
 
-        display:grid;
-        grid-template-columns: calc(160px + 2*0.7em + 1em) auto;
-        grid-template-rows: min-content min-content min-content;
-        gap:0.5em;
-        padding:1em 0.5em;
-        grid-template-areas:
-            "photo title"
-            "photo about"
-            "links about";
-        
-        & > div.photo {
-            grid-area:photo;
+        padding:0.5em;
 
-            display:flex;
-            align-items: center;
-            justify-content: center;
+        border-width:thin;
+        border-style:solid none;
+        border-color:gray;
+        background:white;
+        filter: drop-shadow(0px 0px 0.5rem rgba(128, 128, 128, 0.1));
+
+        &:first-of-type {
+            margin-top:0em;
         }
 
-        & > h1 {
-            grid-area:title;
+        &:last-child {
+            //margin-bottom:2em;
         }
 
-        & > p {
-            grid-area:about;
-            line-height: 1.4em;
-
-            font-size: 1.2em;
+        & h3 {
+            margin:0;
+            display:inline-block;
         }
 
-    }
+        & span.element {
 
-    & img.photo {
-        -webkit-print-color-adjust: exact !important;
-        color-adjust: exact !important;   
-        background-image: url(./photo.jpg);
-        background-size: cover;
-        border-radius:50%;
-        border: white 0.7em solid;
-        filter: drop-shadow(1px 1px 4px gray);
-        width:160px;
-        height:160px;
+            &:not(:first-child):before {
+                content:" ",
+            }
+            &:not(:first-child) {
+                padding-left:0.3em;
+            }
+
+            &:not(:last-child):after {
+                content:", ";
+            }
+        }
     }
 }
