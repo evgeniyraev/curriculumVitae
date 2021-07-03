@@ -28,7 +28,7 @@ export default function Contacts() {
                         src="./github.svg"
                     />
                 </a>
-                <a href="www.linkedin.com/in/evgeniy-raev">
+                <a href="https://www.linkedin.com/in/evgeniy-raev">
                     <img
                         className="linkedin"
                         src="./linkedin.svg"
