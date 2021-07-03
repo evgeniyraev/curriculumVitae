@@ -3,8 +3,17 @@
     flex-direction: row-reverse;
 
     @media print {
-        display:none;
+        & {
+            display:none;
+        }
     }
+
+    @media screen and (max-width: 57em) {
+        & a {
+            margin-right:0.5em;
+        }
+    }
+
 
     & a {
         padding:1em 1.5em;

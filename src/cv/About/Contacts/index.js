@@ -7,7 +7,7 @@ export default function Contacts() {
             className="Contacts"
         >
             <dt>
-                <a href="mailto:evgeniy@raev.dev?subject=Big%20News&body=Body-goes-here">
+                <a href="mailto:evgeniy@raev.dev">
                     evgeniy@raev.dev
                 </a>
             </dt>
