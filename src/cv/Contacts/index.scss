@@ -1,0 +1,33 @@
+.Contacts {
+    margin:0;
+
+    & > dt {
+        padding:0.2em;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+        & img {
+            width:1.2em;
+            height:1.2em;
+
+        }
+        & > a {
+            line-height:1em;
+            text-decoration: none;
+            color:black;
+            
+            &:not(:first-child) {
+                padding-left:1em;
+            }
+
+
+            &:visited {
+                color:black;
+            }
+        }
+        & > * ~ a {
+            padding-left:0.2em;
+        }
+    }
+} 
