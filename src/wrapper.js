@@ -29,8 +29,12 @@ export default ({
                     content="width=device-width,initial-scale=1.0"
                 />
                 <meta property="og:title" content="Evgeniy Raev's CV" />
+                <meta property="og:url" content="http://evgeniy.raev.dev" />
+                <meta property="og:type" content="website" />
                 <meta property="og:description" content="Evgeniy Raev Sotware Architect"/>
                 <meta property="og:image" content="https://evgeniy.raev.dev/cv/preview.jpeg"/>
+                <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:creator" content="@evgeniyraev">
             </head>
             <body>
                 <div
