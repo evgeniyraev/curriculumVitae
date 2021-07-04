@@ -1,0 +1,43 @@
+.Tooltip {
+        position:relative;
+
+        & .info {
+            font-size:10pt;
+            display:none;
+            background: black;
+            color:white;
+            padding:0.2em 1em;
+            border-radius: 2em;
+            position: absolute;
+            top: 0;
+            transform: translate(-50%, -100%);
+            white-space: nowrap;
+
+            &:before {
+                content: "";
+                width: 20px;
+                height: 20px;
+                border-radius: 5px;
+                background-color: inherit;
+                position: absolute;
+                top: calc(100% - 13px);
+                left: calc(50% - 10px);
+                transform: rotate(45deg);
+                z-index: -1;
+            }
+
+
+            & a {
+                color: inherit;
+
+                &:visited {
+                    color: inherit;
+                }
+            }
+        }
+
+        &:hover .info {
+            display:block;
+        }
+    }
+

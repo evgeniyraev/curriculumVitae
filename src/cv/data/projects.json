@@ -12,7 +12,7 @@
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2020 - present",
         "description": "Conducing technical trainings for game development to juniors who need emporvmenet",
-        "stack": "JS\nReact JS\nNode\nwebpack\nPixiJS\nWebGL\ndijkstra, a*\nZoom\nVS Code, live share\ngit / Bitbucket",
+        "stack": "javascript\nReact JS\nNode\nwebpack\nPixiJS\nWebGL\ndijkstra, a*\nZoom\nVS Code, live share\ngit / Bitbucket",
         "responsibilities": "Explaining each design pattern and programming concepts for common problems like memory leak\nExplaining concepts via graphical meaning like drawing and design apps\nGiving individual tasks and do code reviews\nGiving feedback and points for improvement"
     },
     {
