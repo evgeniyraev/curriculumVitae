@@ -62,3 +62,23 @@ header.About {
     }
 
 }
+
+header.About.OGImage {
+    min-width:1200px;
+    min-height:627px;
+    display:flex;
+
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    & img.photo {
+        width:420px;
+        height:420px;
+    }
+
+    & h1 {
+        font-size:72pt;
+    }
+}

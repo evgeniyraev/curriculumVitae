@@ -28,6 +28,9 @@ export default ({
                     name="viewport"
                     content="width=device-width,initial-scale=1.0"
                 />
+                <meta property="og:title" content="Evgeniy Raev's CV" />
+                <meta property="og:description" content="Evgeniy Raev Sotware Architect"/>
+                <meta property="og:image" content="https://evgeniy.raev.dev/cv/preview.jpg"/>
             </head>
             <body>
                 <div
