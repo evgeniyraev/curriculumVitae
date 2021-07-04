@@ -30,7 +30,7 @@ export default ({
                 />
                 <meta property="og:title" content="Evgeniy Raev's CV" />
                 <meta property="og:description" content="Evgeniy Raev Sotware Architect"/>
-                <meta property="og:image" content="https://evgeniy.raev.dev/cv/preview.jpg"/>
+                <meta property="og:image" content="https://evgeniy.raev.dev/cv/preview.jpeg"/>
             </head>
             <body>
                 <div
