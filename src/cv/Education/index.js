@@ -27,7 +27,7 @@ export default function Education() {
                             "Bulgarian - native",
                             "English - fluent",
                             "French - beginner",
-                            "German - forgoten",
+                            "German - forgotten",
                         ],
                     }
 

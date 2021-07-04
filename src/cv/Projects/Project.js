@@ -6,7 +6,6 @@ export default function Project({
     period,
     description,
     stack,
-    responsibilities,
 }) {
     return (
         <article
@@ -30,12 +29,8 @@ export default function Project({
                     className:"description"
                 },
                 {
-                    data:responsibilities,
-                    className:"responsibilities"
-                },
-                {
                     title:"Stack:",
-                    data:stack.split("\n"),
+                    data:stack,
                     className:"stack"
                 },
             ].map(({title, data, className}, i) => (
@@ -57,13 +52,26 @@ export default function Project({
                             >
                                 { el }
                             </span>
-                        )) || (
+                        )) || /\n/.test(data) && (
+                            <div
+                                className="description"
+                            >
+                                { data.split("\n").map((text, i) => (
+                                    <p
+                                        key={i}
+                                    >
+                                        { text }
+                                    </p>
+                                ))}
+                            </div>
+                        ) || (
                             <div
                                 className="description"
                             >
                                 { data }
                             </div>
-                        )}
+                        )
+                        }
                 </section>
             ))}
         </article>

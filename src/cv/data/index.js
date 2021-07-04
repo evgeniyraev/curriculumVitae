@@ -1,7 +1,7 @@
 import projects from './projects.json';
 
 let skills = projects.reduce((list, {stack}) => {
-    stack.split("\n").forEach(s => {
+    stack.forEach(s => {
         if(list.has(s)) {
             list.set(s, list.get(s) + 1);
         } else {
