@@ -25,7 +25,7 @@ export default () => {
                             Evgeniy Raev
                         </h1>
                         <h3>
-                            doing random stuff for money
+                            rabbit hole explorer
                         </h3>
                     </div>
                 </header>
