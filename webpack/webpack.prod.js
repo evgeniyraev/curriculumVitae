@@ -50,6 +50,7 @@ const serverConfig = {
   name:"static",
   entry: {
       "wrapper.js": path.resolve(__dirname, "../src/wrapper.js"),
+      "OpenGraphImage.js": path.resolve(__dirname, "../src/OpenGraphImage.js"),
   },
   module: {
       rules: [
