@@ -5,9 +5,9 @@ export default function Tooltip({tip, children}) {
     return (
         <span className="Tooltip">
             <span >{ children }</span>
-            <div className="info">
+            <span className="info">
                 { tip }
-            </div>
+            </span>
         </span>
     )
 }

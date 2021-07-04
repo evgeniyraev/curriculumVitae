@@ -82,7 +82,7 @@ export default function Skills() {
                         title:"Soft Skills",
                         list:[
                             "project managment",
-                            "team lead",
+                            "team managment",
                             "mentoring",
                             "leading",
                             "researching",
@@ -92,10 +92,10 @@ export default function Skills() {
                         ]
                     },
                     {
-                        title:"other",
+                        title:"Other",
                         list:[
                             "drawing",
-                            "recreational mathematics"
+                            "recreational mathematics",
                         ]
                     },
 

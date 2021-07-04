@@ -3,152 +3,279 @@
         "name": "Tools for Game Development",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2021 - present",
-        "description": "Creating different tools for assisting game development. The tools include faster assets generation, hot swapping of updated textures",
-        "stack":"docker\nwebpack\nwebpack plugins\nnode\nsocket files\nlinux\nsocket\nbash\ndocker composer\npixi\ngit / GitLab",
-        "responsibilities":"Researching, desingling and developing tools to be regularry used by other devs"
+        "description": "Creating different tools for assisting game development. The tools include faster assets generation, hot swapping of updated textures;\nResearching, desingling and developing tools to be regularry used by other devs;",
+        "stack": [
+            "docker",
+            "webpack",
+            "webpack plugins",
+            "node",
+            "socket files",
+            "linux",
+            "socket",
+            "bash",
+            "docker composer",
+            "pixi",
+            "git / GitLab"
+        ]
     },
     {
         "name": "Junior Academy Trainer",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2020 - present",
-        "description": "Conducing technical trainings for game development to juniors who need emporvmenet",
-        "stack": "javascript\nReact JS\nNode\nwebpack\nPixiJS\nWebGL\ndijkstra, a*\nZoom\nVS Code, live share\ngit / Bitbucket",
-        "responsibilities": "Explaining each design pattern and programming concepts for common problems like memory leak\nExplaining concepts via graphical meaning like drawing and design apps\nGiving individual tasks and do code reviews\nGiving feedback and points for improvement"
+        "description": "Conducing technical trainings for game development to juniors who need emporvmenet;\nExplaining each design pattern and programming concepts for common problems like memory leak;\nExplaining concepts via graphical meaning like drawing and design apps;\nGiving individual tasks and do code reviews;\nGiving feedback and points for improvement;",
+        "stack": [
+            "javascript",
+            "React JS",
+            "Node",
+            "webpack",
+            "PixiJS",
+            "WebGL",
+            "dijkstra, a*",
+            "Zoom",
+            "VS Code, live share",
+            "git / Bitbucket"
+        ]
     },
     {
         "name": "Curriculum Vitae",
         "employer": "Personal",
         "period": "2021",
-        "description": "",
-        "stack":"React JS\nwebpack\nAWS\nCode Pipeline\ngit / GitHub\nnode\npuppeteer\nRoute 53\nCoud Front\nLambda\nS3",
-        "responsibilities":""
+        "description": "CD project that allows me to edit a single file and generate webpage and pdf;\nPDF creation integrated in the build proecess;",
+        "stack": [
+            "React JS",
+            "webpack",
+            "AWS",
+            "Code Pipeline",
+            "git / GitHub",
+            "node",
+            "puppeteer",
+            "Route 53",
+            "Coud Front",
+            "Lambda",
+            "S3"
+        ]
     },
     {
         "name": "DHL Web Solutions",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2018 - 2021",
-        "description": "Team lead for the frontend team of 7 people and responsible for the developed solutions.\nHiring manager for newly created dedicated frontend team and conducting technical interviews.\nCreating the web interfaces for logistic software.\nThe app have to enhance the work of the workers involved in the whole process.\nDeveloping new support tools for the development process like Design Tool or Translation Tool. They are developed as cli apps, webpack plugins, VSCode plugins, directly communicate with Jenkins.\nMy main goal was to create environment for all future projects to be created, maintained and implement new features with ease.\nFor the mobile project to be possible to add as mani different SDK's as needed",
-        "stack": "HTML\nCSS\nReact JS\nwebpack\nwebpack plugins \nmulti solutions apps\nnpm private repo\nbabel\nSwagger\nnode / cli apps \nnode custom modules \nCI/CD\nJenkins\ngit / gerrit\nZebra Enterprise Browser\nHoneywell Enterprise Browser\nAdobe XD",
-        "responsibilities": "Whole projects estemations\ncreating UX\nsolution architecture\nteam task management\ncreating dev ops tools\npair programing\npresentations/demos\nteam expansions\nplaning and preparing for eventual scenarios (most of them become true)\nremote problem solving"
+        "description": "Team lead for the frontend team of 7 people and responsible for the developed solutions;\nHiring manager for newly created dedicated frontend team and conducting technical interviews;\nCreating the web interfaces for logistic software;\nThe app have to enhance the work of the workers involved in the whole process;\nDeveloping new support tools for the development process like Design Tool or Translation Tool. They are developed as cli apps, webpack plugins, VSCode plugins, directly communicate with Jenkins;\nMy main goal was to create environment for all future projects to be created, maintained and implement new features with ease;\nFor the mobile project to be possible to add as mani different SDK's as needed;\nWhole projects estemations;\nResponsible for: creating UX, solution architecture, team task management, creating dev ops tools, presentations/demos, team expansions, planning and preparing for eventual scenarios (most of them become true), remote problem solving",
+        "stack": [
+            "HTML",
+            "CSS",
+            "React JS",
+            "webpack",
+            "webpack plugins ",
+            "multi solutions apps",
+            "npm private repo",
+            "babel",
+            "Swagger",
+            "node / cli apps ",
+            "node custom modules ",
+            "CI/CD",
+            "Jenkins",
+            "git / gerrit",
+            "Zebra Enterprise Browser",
+            "Honeywell Enterprise Browser",
+            "Adobe XD"
+        ]
     },
     {
         "name": "ClosetsToGo",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2019 - preset",
-        "description": "Web solution for semi-CAD system for assisting designers in drawing and price calcuation",
-        "stack": "Flash\nActionScript\nHTML\nJS\nWebGL\nWindows Server\nMySQL\nPHP\nGit / Github Enterprise",
-        "responsibilities": "Detailed project estimation\nsolutions R&D \ndirect client communication\ndev environment setup\nexisting codebase extension\npair programing"
+        "description": "Web solution for semi-CAD system for assisting designers in drawing and price calcuation;\nDetailed project estimation;\nsolutions R&D;\ndirect client communication;\ndev environment setup;\nexisting codebase extension;\npair programing",
+        "stack": [
+            "Flash",
+            "ActionScript",
+            "HTML",
+            "JS",
+            "WebGL",
+            "Windows Server",
+            "MySQL",
+            "PHP",
+            "Git / Github Enterprise"
+        ]
     },
     {
         "name": "Scenarious",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2018 - 2019",
-        "description": "Web tool assisting big data analytics and visualization. ",
-        "stack": "HTML\nCSS\nReact JS\nRedux\ngit / Bitbucket",
-        "responsibilities": "Building frontend solution\nproject architecture\ndesign implementation"
+        "description": "Web tool assisting big data analytics and visualization;\nBuilding frontend solution;\nproject architecture;\ndesign implementation;",
+        "stack": [
+            "HTML",
+            "CSS",
+            "React JS",
+            "Redux",
+            "git / Bitbucket"
+        ]
     },
     {
         "name": "Interactive Video Terminals",
         "employer": "freelance",
         "period": "2018",
-        "description": "Interactive Terminal for playing video media.\n\nMain challenge is the assets are big files over 10GB and how to be downloaded from the device and comfortable to maintain for the video professional ",
-        "stack": "HTML\nCSS\nReact JS\nRaspberry PI\nlinux\ngit / AWS Code Commit\nAWS\nCloud Build\nCI/CD",
-        "responsibilities": "Building web UI\nsetting up linux for always on operation\nnode processes maintenance"
+        "description": "Interactive Terminal for playing video media;\nMain challenge is the assets are big files over 10GB and how to be downloaded from the device and comfortable to maintain for the video professional;\nBuilding web UI;\nsetting up linux for always on operation;\nnode processes maintenance",
+        "stack": [
+            "HTML",
+            "CSS",
+            "React JS",
+            "Raspberry PI",
+            "linux",
+            "git / AWS Code Commit",
+            "AWS",
+            "Cloud Build",
+            "CI/CD"
+        ]
     },
     {
         "name": "RouletteSports",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2017 - 2018",
-        "description": "Mobile and web games for betting using not standard UI ",
-        "stack": "HTML\nCSS\nReact JS\nReact Native\nJava (Android)\ngit / Bitbucket",
-        "responsibilities": "Migrating existing Android codebase to React Native\nimplementing ReactJS based on React Nave solution\ncommon business logic and communication core between new React Projects"
+        "description": "Mobile and web games for betting using not standard UI;\nMigrating existing Android codebase to React Native;\nimplementing ReactJS based on React Nave solution;\ncommon business logic and communication core between new React Projects",
+        "stack": [
+            "HTML",
+            "CSS",
+            "React JS",
+            "React Native",
+            "Java (Android)",
+            "git / Bitbucket"
+        ]
     },
     {
         "name": "Interactive Map v3",
         "employer": "Webnovel",
         "period": "2016 - 2017",
-        "description": "Creating 2.5D Interactive map with navigation used for indoor or outdoor purposes.\nEvery element can be changed from the backend.\nThe targets are web, iOS, Android\nThe solution is used in MagaMall, Iniacni and Marinela Hotel",
-        "stack": "HTML\nCSS\nReact JS\nPixiJS\nWebGL\nnode\nAWS\nMySQL\nSwift\nGameKit\nJava (Android)\ngit / git server\nLISP\nMaxScript",
-        "responsibilities": "Shared crossplatform assets\ncashing on device assets\nCanvas animation\nSprite-sheet generation \npath finding algorithms\nGPU calculation\nhit map implementation\nquad tree rectangle finding\nAutoCAD and Photoshop assets extraction\n3Ds Max rendering queue\nteam expansion\nlow spec support"
+        "description": "Creating 2.5D Interactive map with navigation used for indoor or outdoor purposes;\nEvery element can be changed from the backend;\nThe targets are web, iOS, Android;\nThe solution is used in MagaMall, Iniacni and Marinela Hotel;\nShared crossplatform assets;\ncashing on device assets;\nCanvas animation;\nSprite-sheet generation;\npath finding algorithms;\nGPU calculation;\nhit map implementation;\nquad tree rectangle finding;\nAutoCAD and Photoshop assets extraction;\n3Ds Max rendering queue;\nteam expansion;\nlow spec support",
+        "stack": [
+            "HTML",
+            "CSS",
+            "React JS",
+            "PixiJS",
+            "WebGL",
+            "node",
+            "AWS",
+            "MySQL",
+            "Swift",
+            "GameKit",
+            "Java (Android)",
+            "git / git server",
+            "LISP",
+            "MaxScript"
+        ]
     },
     {
         "name": "Tropicalla ",
         "employer": "Confetti gaming",
         "period": "2014 - 2016",
-        "description": "2,5D Flash Game\n",
-        "stack": "ActionScript\nStarling",
-        "responsibilities": "Existing codebase maintenance\nadding features\nperformance optimization\nGPU optimization\noverall project refactoring\nteam expansion"
+        "description": "2,5D Flash Game;\nExisting codebase maintenance;\nadding features;\nperformance optimization;\nGPU optimization;\noverall project refactoring;\nteam expansion",
+        "stack": [
+            "ActionScript",
+            "Starling"
+        ]
     },
     {
         "name": "Dating App",
         "employer": "Webnovel",
         "period": "2014",
-        "description": "iOS native app",
-        "stack": "Swift\nCocaPods\ngit / git server",
-        "responsibilities": "Design implementation \ndirect client communication"
+        "description": "iOS native app;\nDesign implementation;\ndirect client communication",
+        "stack": [
+            "Swift",
+            "CocaPods",
+            "git / git server"
+        ]
     },
     {
         "name": "Paradise Center",
         "employer": "freelance",
         "period": "2014 - 2017",
-        "description": "General Service\nSetting up the web server.\niOS and Android component development.\nInteractive kiosk solution.\nSave parked location via QR.",
-        "stack": "linux\nUbuntu Server \nX11\nApache\nnode\nMySQL\nssh\nQR",
-        "responsibilities": "Pair programing\ntech consultation\nteam expansion\nnon-standard solution R&D\nlarge unique poster printing solution"
+        "description": "General Service;\nSetting up the web server;\niOS and Android component development;\nInteractive kiosk solution;\nSave parked location via QR;\nPair programing;\ntech consultation;\nteam expansion;\nnon-standard solution R&D;\nlarge unique poster printing solution",
+        "stack": [
+            "linux",
+            "Ubuntu Server ",
+            "X11",
+            "Apache",
+            "node",
+            "MySQL",
+            "ssh",
+            "QR"
+        ]
     },
     {
         "name": "Interactive Map v2",
         "employer": "Freelance",
         "period": "2014",
-        "description": "Creating 2.5D Interactive map with navigation used for indoor purposes.\nEvery element can be changed from the backend.\nTarget platforms web, iOS\nThe solution is used in Paradise and GrandMall Varna",
-        "stack": "HTML\nCSS\nJS / Vanilla\nCanvas\nSwift",
-        "responsibilities": "Canvas animation\nSprite-sheet generation \npath finding algorithms\nPhotoshop assets extraction tool\niOS view"
+        "description": "Creating 2.5D Interactive map with navigation used for indoor purposes;\nEvery element can be changed from the backend;\nTarget platforms web, iOS;\nThe solution is used in Paradise and GrandMall Varna;\nCanvas animation;\nSprite-sheet generation;\npath finding algorithms;\nPhotoshop assets extraction tool;\niOS view;",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JS / Vanilla",
+            "Canvas",
+            "Swift"
+        ]
     },
     {
         "name": "Poker Client",
         "employer": "IGSoft",
         "period": "2013 - 2014",
-        "description": "Poker client for web and desktop.\nClient has to support nice on table items animations, as many same running instance ruining in the same time. ",
-        "stack": "ActionScript\nFlex",
-        "responsibilities": "Business logic flow optimization\nperformance optimization\nruntime assets generation and caching\nc++ code transfer to ActionScript"
+        "description": "Poker client for web and desktop;\nClient has to support nice on table items animations, as many same running instance ruining in the same time;\nBusiness logic flow optimization;\nperformance optimization;\nruntime assets generation and caching;\nc++ code transfer to ActionScript;",
+        "stack": [
+            "ActionScript",
+            "Flex"
+        ]
     },
     {
         "name": "Interactive Map v1",
         "employer": "freelance",
         "period": "2012",
-        "description": "Creating 2.5D Interactive map with navigation used for indoor purposes.\nEvery element can be changed from the backend.\nThe solution was used in TheMall and Paradise.",
-        "stack": "ActionScript",
-        "responsibilities": "Assets generation\nrequests optimization\njavascript ActionScrip communication"
+        "description": "Creating 2.5D Interactive map with navigation used for indoor purposes;\nEvery element can be changed from the backend;\nThe solution was used in TheMall and Paradise;\nAssets generation;\nrequests optimization;\njavascript ActionScrip communication;",
+        "stack": [
+            "ActionScript"
+        ]
     },
     {
         "name": "BingoGame",
         "employer": "blue edge",
         "period": "2011 - 2013",
-        "description": "Bingo frontend implementation for touch screens.\nI had co convince backend devs that frontend can have business logic.",
-        "stack": "ActionScript",
-        "responsibilities": "Business logic implementation\nclient server socket communication"
+        "description": "Bingo frontend implementation for touch screens;\nI had co convince backend devs that frontend can have business logic;\nBusiness logic implementation;\nclient server socket communication;",
+        "stack": [
+            "ActionScript"
+        ]
     },
     {
         "name": "SerchMagazine",
         "employer": "freelance",
         "period": "2011",
-        "description": "Mobile App allowing user to read a magazine.\nMain challenge was the user had to smoothly pan zoomIn and zoomOut of a large multipage document. ",
-        "stack": "ActionScript\nAdobe Air\niOS",
-        "responsibilities": "Assets generation and preparation\nbitmap manipulations"
+        "description": "Mobile App allowing user to read a magazine;\nMain challenge was the user had to smoothly pan zoomIn and zoomOut of a large multipage document;\nAssets generation and preparation;\nbitmap manipulations;",
+        "stack": [
+            "ActionScript",
+            "Adobe Air",
+            "iOS"
+        ]
     },
     {
         "name": "Interactive Banner",
         "employer": "freelance",
         "period": "2010",
-        "description": "banner playing internet radio",
-        "stack": "ActionScript",
-        "responsibilities": "Stream playing"
+        "description": "banner playing internet radio;\nStream playing;",
+        "stack": [
+            "ActionScript"
+        ]
     },
     {
         "name": "Personal Prjects",
         "employer": "Personal",
         "period": "2005 - present",
-        "description": "Many small single or multi use cli, or desktop apps, or serverless api",
-        "stack": "node\nbash\nActionScript\nElectron\nsiri shortcuts\nMySQL\nVisual Basic\nLambda\n...",
-        "responsibilities": "Excel data extraction\nnumber to text generator\nauto click automations\ndata visualization\ndata storage\nWoW addons\nrendering randomization\nmany more"
+        "description": "Many small single or multi use cli, or desktop apps, or serverless api;\nExcel data extraction;\nnumber to text generator;\nauto click automations;\ndata visualization;\ndata storage;\nWoW addons;\nrendering randomization;\nmany more...",
+        "stack": [
+            "node",
+            "bash",
+            "ActionScript",
+            "Electron",
+            "siri shortcuts",
+            "MySQL",
+            "Visual Basic",
+            "Lambda",
+            "..."
+        ]
     }
 ]
