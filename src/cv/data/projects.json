@@ -5,16 +5,16 @@
         "period": "2021 - present",
         "description": "Creating different tools for assisting game development. The tools include faster assets generation, hot swapping of updated textures;\nResearching, desingling and developing tools to be regularry used by other devs;",
         "stack": [
-            "docker",
-            "webpack",
-            "webpack plugins",
+            "Docker",
+            "Webpack",
+            "Webpack plugins",
             "node",
             "socket files",
-            "linux",
+            "Linux",
             "socket",
             "bash",
-            "docker composer",
-            "pixi",
+            "Docker compose",
+            "Pixi",
             "git / GitLab"
         ]
     },
@@ -22,15 +22,15 @@
         "name": "Junior Academy Trainer",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2020 - present",
-        "description": "Conducing technical trainings for game development to juniors who need emporvmenet;\nExplaining each design pattern and programming concepts for common problems like memory leak;\nExplaining concepts via graphical meaning like drawing and design apps;\nGiving individual tasks and do code reviews;\nGiving feedback and points for improvement;",
+        "description": "Conducing technical trainings for game development to juniors who need imporvmenet;\nExplaining each design pattern and programming concepts for common problems like memory leaks;\nExplaining concepts via graphical meaning like drawing and design apps;\nGiving individual tasks and do code reviews;\nGiving feedback and points for improvement;",
         "stack": [
-            "javascript",
+            "JavaScript",
             "React JS",
             "Node",
-            "webpack",
+            "Webpack",
             "PixiJS",
             "WebGL",
-            "dijkstra, a*",
+            "Dijkstra, a*",
             "Zoom",
             "VS Code, live share",
             "git / Bitbucket"
@@ -43,7 +43,7 @@
         "description": "CD project that allows me to edit a single file and generate webpage and pdf;\nPDF creation integrated in the build proecess;",
         "stack": [
             "React JS",
-            "webpack",
+            "Webpack",
             "AWS",
             "Code Pipeline",
             "git / GitHub",
@@ -64,11 +64,11 @@
             "HTML",
             "CSS",
             "React JS",
-            "webpack",
-            "webpack plugins ",
-            "multi solutions apps",
+            "Webpack",
+            "Webpack plugins ",
+            "Multi-solutions apps",
             "npm private repo",
-            "babel",
+            "Babel",
             "Swagger",
             "node / cli apps ",
             "node custom modules ",
@@ -84,7 +84,7 @@
         "name": "ClosetsToGo",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2019 - preset",
-        "description": "Web solution for semi-CAD system for assisting designers in drawing and price calcuation;\nDetailed project estimation;\nsolutions R&D;\ndirect client communication;\ndev environment setup;\nexisting codebase extension;\npair programing",
+        "description": "Web solution for semi-CAD system for assisting designers in drawing and price calcuation;\nDetailed project estimation;\nsolutions R&D;\nDirect client communication;\nDev environment setup;\nExisting codebase extension;\nPair programing",
         "stack": [
             "Flash",
             "ActionScript",
@@ -101,7 +101,7 @@
         "name": "Scenarious",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2018 - 2019",
-        "description": "Web tool assisting big data analytics and visualization;\nBuilding frontend solution;\nproject architecture;\ndesign implementation;",
+        "description": "Web tool assisting big data analytics and visualization;\nBuilding frontend solution;\nProject architecture;\nDesign implementation;",
         "stack": [
             "HTML",
             "CSS",
@@ -114,13 +114,13 @@
         "name": "Interactive Video Terminals",
         "employer": "freelance",
         "period": "2018",
-        "description": "Interactive Terminal for playing video media;\nMain challenge is the assets are big files over 10GB and how to be downloaded from the device and comfortable to maintain for the video professional;\nBuilding web UI;\nsetting up linux for always on operation;\nnode processes maintenance",
+        "description": "Interactive Terminal for playing video media;\nMain challenge is the assets are big files over 10GB and how to be downloaded from the device and comfortable to maintain for the video professional;\nBuilding web UI;\nSetting up linux for always on operation;\nnode processes maintenance",
         "stack": [
             "HTML",
             "CSS",
             "React JS",
             "Raspberry PI",
-            "linux",
+            "Linux",
             "git / AWS Code Commit",
             "AWS",
             "Cloud Build",
@@ -131,7 +131,7 @@
         "name": "RouletteSports",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2017 - 2018",
-        "description": "Mobile and web games for betting using not standard UI;\nMigrating existing Android codebase to React Native;\nimplementing ReactJS based on React Nave solution;\ncommon business logic and communication core between new React Projects",
+        "description": "Mobile and web games for betting using not standard UI;\nMigrating existing Android codebase to React Native;\nImplementing ReactJS based on React Nave solution;\nCommon business logic and communication core between new React Projects",
         "stack": [
             "HTML",
             "CSS",
@@ -145,7 +145,7 @@
         "name": "Interactive Map v3",
         "employer": "Webnovel",
         "period": "2016 - 2017",
-        "description": "Creating 2.5D Interactive map with navigation used for indoor or outdoor purposes;\nEvery element can be changed from the backend;\nThe targets are web, iOS, Android;\nThe solution is used in MagaMall, Iniacni and Marinela Hotel;\nShared crossplatform assets;\ncashing on device assets;\nCanvas animation;\nSprite-sheet generation;\npath finding algorithms;\nGPU calculation;\nhit map implementation;\nquad tree rectangle finding;\nAutoCAD and Photoshop assets extraction;\n3Ds Max rendering queue;\nteam expansion;\nlow spec support",
+        "description": "Creating 2.5D Interactive map with navigation used for indoor or outdoor purposes;\nEvery element can be changed from the backend;\nThe targets are web, iOS, Android;\nThe solution is used in MegaMall, Iliacni and Marinela Hotel;\nShared cross-platform assets;\nCaching assets on device;\nCanvas animation;\nSpritesheet generation;\nPath finding algorithms;\nGPU calculation;\nHit map implementation;\nQuad tree rectangle finding;\nAutoCAD and Photoshop assets extraction;\n3Ds Max rendering queue;\nTeam expansion;\nLow spec support",
         "stack": [
             "HTML",
             "CSS",
@@ -167,7 +167,7 @@
         "name": "Tropicalla ",
         "employer": "Confetti gaming",
         "period": "2014 - 2016",
-        "description": "2,5D Flash Game;\nExisting codebase maintenance;\nadding features;\nperformance optimization;\nGPU optimization;\noverall project refactoring;\nteam expansion",
+        "description": "2,5D Flash Game;\nExisting codebase maintenance;\nAdding features;\nPerformance optimization;\nGPU optimization;\nOverall project refactoring;\nTeam expansion",
         "stack": [
             "ActionScript",
             "Starling"
@@ -177,7 +177,7 @@
         "name": "Dating App",
         "employer": "Webnovel",
         "period": "2014",
-        "description": "iOS native app;\nDesign implementation;\ndirect client communication",
+        "description": "iOS native app;\nDesign implementation;\nDirect client communication",
         "stack": [
             "Swift",
             "CocaPods",
@@ -188,9 +188,9 @@
         "name": "Paradise Center",
         "employer": "freelance",
         "period": "2014 - 2017",
-        "description": "General Service;\nSetting up the web server;\niOS and Android component development;\nInteractive kiosk solution;\nSave parked location via QR;\nPair programing;\ntech consultation;\nteam expansion;\nnon-standard solution R&D;\nlarge unique poster printing solution",
+        "description": "General Service;\nSetting up the web server;\niOS and Android component development;\nInteractive kiosk solution;\nSave parked location via QR;\nPair programing;\nTech consultation;\nTeam expansion;\nNon-standard solution R&D;\nLarge unique poster printing solution",
         "stack": [
-            "linux",
+            "Linux",
             "Ubuntu Server ",
             "X11",
             "Apache",
@@ -204,7 +204,7 @@
         "name": "Interactive Map v2",
         "employer": "Freelance",
         "period": "2014",
-        "description": "Creating 2.5D Interactive map with navigation used for indoor purposes;\nEvery element can be changed from the backend;\nTarget platforms web, iOS;\nThe solution is used in Paradise and GrandMall Varna;\nCanvas animation;\nSprite-sheet generation;\npath finding algorithms;\nPhotoshop assets extraction tool;\niOS view;",
+        "description": "Creating 2.5D Interactive map with navigation used for indoor purposes;\nEvery element can be changed from the backend;\nTarget platforms web, iOS;\nThe solution is used in Paradise Center and Grand Mall Varna;\nCanvas animation;\nSpritesheet generation;\nPath finding algorithms;\nPhotoshop assets extraction tool;\niOS view;",
         "stack": [
             "HTML",
             "CSS",
@@ -217,7 +217,7 @@
         "name": "Poker Client",
         "employer": "IGSoft",
         "period": "2013 - 2014",
-        "description": "Poker client for web and desktop;\nClient has to support nice on table items animations, as many same running instance ruining in the same time;\nBusiness logic flow optimization;\nperformance optimization;\nruntime assets generation and caching;\nc++ code transfer to ActionScript;",
+        "description": "Poker client for web and desktop;\nClient has to support nice on table items animations, as many same running instance ruining in the same time;\nBusiness logic flow optimization;\nPerformance optimization;\nRuntime assets generation and caching;\nC++ code transfer to ActionScript;",
         "stack": [
             "ActionScript",
             "Flex"
@@ -227,7 +227,7 @@
         "name": "Interactive Map v1",
         "employer": "freelance",
         "period": "2012",
-        "description": "Creating 2.5D Interactive map with navigation used for indoor purposes;\nEvery element can be changed from the backend;\nThe solution was used in TheMall and Paradise;\nAssets generation;\nrequests optimization;\njavascript ActionScrip communication;",
+        "description": "Creating 2.5D Interactive map with navigation used for indoor purposes;\nEvery element can be changed from the backend;\nThe solution was used in TheMall and Paradise;\nAssets generation;\nRequests optimization;\nJavaScript ActionScript communication;",
         "stack": [
             "ActionScript"
         ]
@@ -236,7 +236,7 @@
         "name": "BingoGame",
         "employer": "blue edge",
         "period": "2011 - 2013",
-        "description": "Bingo frontend implementation for touch screens;\nI had co convince backend devs that frontend can have business logic;\nBusiness logic implementation;\nclient server socket communication;",
+        "description": "Bingo frontend implementation for touch screens;\nI had to convince backend devs that frontend can have business logic;\nBusiness logic implementation;\nClient-server socket communication;",
         "stack": [
             "ActionScript"
         ]
@@ -245,7 +245,7 @@
         "name": "SerchMagazine",
         "employer": "freelance",
         "period": "2011",
-        "description": "Mobile App allowing user to read a magazine;\nMain challenge was the user had to smoothly pan zoomIn and zoomOut of a large multipage document;\nAssets generation and preparation;\nbitmap manipulations;",
+        "description": "Mobile App allowing user to read a magazine;\nMain challenge was the user had to smoothly pan zoomIn and zoomOut of a large multipage document;\nAssets generation and preparation;\nBitmap manipulations;",
         "stack": [
             "ActionScript",
             "Adobe Air",
@@ -256,7 +256,7 @@
         "name": "Interactive Banner",
         "employer": "freelance",
         "period": "2010",
-        "description": "banner playing internet radio;\nStream playing;",
+        "description": "Banner playing internet radio;\nStream playing;",
         "stack": [
             "ActionScript"
         ]
@@ -265,13 +265,13 @@
         "name": "Personal Prjects",
         "employer": "Personal",
         "period": "2005 - present",
-        "description": "Many small single or multi use cli, or desktop apps, or serverless api;\nExcel data extraction;\nnumber to text generator;\nauto click automations;\ndata visualization;\ndata storage;\nWoW addons;\nrendering randomization;\nmany more...",
+        "description": "Many small single or multi use cli, or desktop apps, or serverless api;\nExcel data extraction;\nNumber to text generator;\nAuto click automations;\nData visualization;\nData storage;\nWoW addons;\nRendering randomization;\nMany more...",
         "stack": [
             "node",
             "bash",
             "ActionScript",
             "Electron",
-            "siri shortcuts",
+            "Siri shortcuts",
             "MySQL",
             "Visual Basic",
             "Lambda",
