@@ -17,7 +17,7 @@ export default function Education() {
                         title:"Education",
                         list:[
                             "Sofia University St. Kliment Ohridski - Computer Science - not finished",
-                            "University of Architecture, Civil Engineering  and Geodesy - Construction Engineering - not finished",
+                            "University of Architecture, Civil Engineering and Geodesy - Construction Engineering - not finished",
                             "Professional Hight school of Civil Engineering and Geodesy - Construction and Architecture",
                         ]
                     },
