@@ -83,13 +83,8 @@
     {
         "name": "ClosetsToGo",
         "employer": "AWD - Atom, Weiner, deVRealm",
-<<<<<<< HEAD
         "period": "2019 - 2021",
-        "description": "Web solution for semi-CAD system for assisting designers in drawing and price calcuation;\nDetailed project estimation;\nsolutions R&D;\ndirect client communication;\ndev environment setup;\nexisting codebase extension;\npair programing",
-=======
-        "period": "2019 - preset",
         "description": "Web solution for semi-CAD system for assisting designers in drawing and price calcuation;\nDetailed project estimation;\nsolutions R&D;\nDirect client communication;\nDev environment setup;\nExisting codebase extension;\nPair programing",
->>>>>>> e73fbd2a139f218f05a8e2da0903773d0b57aaeb
         "stack": [
             "Flash",
             "ActionScript",
