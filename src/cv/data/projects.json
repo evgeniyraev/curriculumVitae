@@ -2,7 +2,7 @@
     {
         "name": "Tools for Game Development",
         "employer": "AWD - Atom, Weiner, deVRealm",
-        "period": "2021 - present",
+        "period": "2021",
         "description": "Creating different tools for assisting game development. The tools include faster assets generation, hot swapping of updated textures;\nResearching, desingling and developing tools to be regularry used by other devs;",
         "stack": [
             "docker",
@@ -21,7 +21,7 @@
     {
         "name": "Junior Academy Trainer",
         "employer": "AWD - Atom, Weiner, deVRealm",
-        "period": "2020 - present",
+        "period": "2020 - 2021",
         "description": "Conducing technical trainings for game development to juniors who need emporvmenet;\nExplaining each design pattern and programming concepts for common problems like memory leak;\nExplaining concepts via graphical meaning like drawing and design apps;\nGiving individual tasks and do code reviews;\nGiving feedback and points for improvement;",
         "stack": [
             "javascript",
@@ -83,7 +83,7 @@
     {
         "name": "ClosetsToGo",
         "employer": "AWD - Atom, Weiner, deVRealm",
-        "period": "2019 - preset",
+        "period": "2019 - 2021",
         "description": "Web solution for semi-CAD system for assisting designers in drawing and price calcuation;\nDetailed project estimation;\nsolutions R&D;\ndirect client communication;\ndev environment setup;\nexisting codebase extension;\npair programing",
         "stack": [
             "Flash",
