@@ -15,12 +15,12 @@ export default function Skills() {
                     {
                         title:"Languages",
                         list:[
-                            "javascript",
-                            "swift",
-                            "bash",
-                            "mysql",
+                            "JavaScript",
+                            "Swift",
+                            "Bash",
+                            "MySQL",
                             "Java (Android)",
-                            "typescript",
+                            "TypeScript",
                         ]
                     },
                     {
