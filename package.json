@@ -12,7 +12,7 @@
     "build": "webpack --progress --config webpack/webpack.prod && node src/exportPdf.js"
   },
   "dependencies": {
-    "puppeteer": "^10.1.0",
+    "puppeteer": "^18.0.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -31,6 +31,6 @@
     "style-loader": "^2.0.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.11.1"
   }
 }

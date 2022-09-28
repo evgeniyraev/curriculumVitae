@@ -1,5 +1,20 @@
 [
     {
+        "name": "Mobile Banking App",
+        "employer": "SoftwareGroup",
+        "period": "2021 - present",
+        "description": "Developing an iOS App for Mobile Banking acopaning a Internet Banking Portal",
+        "stack": [
+            "HTML",
+            "CSS",
+            "React JS",
+            "SwiftUI",
+            "MeaWallet",
+            "node",
+            "git / GitLab"
+        ]
+    },
+    {
         "name": "Tools for Game Development",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2021",
