@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import CV from './cv';
 import './index.scss';
 
-ReactDOM.[
+ReactDOM[
     process.env.NODE_ENV == "development"
     ? "render"
     : "hydrate"

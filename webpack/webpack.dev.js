@@ -6,17 +6,10 @@ const commonConfig = require('./webpack.common');
 const web = merge(commonConfig, {
     mode:"development",
     devServer: {
+        static:path.join(__dirname, '../public'),
         host:"0.0.0.0",
         hot:true,
         historyApiFallback: true,
-        proxy: [{
-            context: [
-                '/api',
-            ],
-            target: 'http://devpi.local/',
-            changeOrigin: true,
-        }],
-        contentBase:path.join(__dirname, '../public'),
         /*
         setup: function(app, server) {
             app.get('/some/path', function(req, res) {
