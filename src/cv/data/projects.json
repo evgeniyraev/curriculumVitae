@@ -3,7 +3,7 @@
         "name": "Mobile Banking App",
         "employer": "SoftwareGroup",
         "period": "2021 - present",
-        "description": "Developing an iOS App for Mobile Banking acopaning a Internet Banking Portal",
+        "description": "Developing an iOS App for Mobile Banking acopaning a Internet Banking Portal;\nDirect client communication;",
         "stack": [
             "HTML",
             "CSS",
@@ -74,7 +74,7 @@
         "name": "DHL Web Solutions",
         "employer": "AWD - Atom, Weiner, deVRealm",
         "period": "2018 - 2021",
-        "description": "Team lead for the frontend team of 7 people and responsible for the developed solutions;\nHiring manager for newly created dedicated frontend team and conducting technical interviews;\nCreating the web interfaces for logistic software;\nThe app have to enhance the work of the workers involved in the whole process;\nDeveloping new support tools for the development process like Design Tool or Translation Tool. They are developed as cli apps, webpack plugins, VSCode plugins, directly communicate with Jenkins;\nMy main goal was to create environment for all future projects to be created, maintained and implement new features with ease;\nFor the mobile project to be possible to add as mani different SDK's as needed;\nWhole projects estemations;\nResponsible for: creating UX, solution architecture, team task management, creating dev ops tools, presentations/demos, team expansions, planning and preparing for eventual scenarios (most of them become true), remote problem solving",
+        "description": "Team lead for the frontend team of 7 people and responsible for the developed solutions;\nHiring manager for newly created dedicated frontend team and conducting technical interviews;\nCreating the web interfaces for logistic software;\nThe app have to enhance the work of the workers involved in the whole process;\nDeveloping new support tools for the development process like Design Tool or Translation Tool. They are developed as cli apps, webpack plugins, VSCode plugins, directly communicate with Jenkins;\nMy main goal was to create environment for all future projects to be created, maintained and implement new features with ease;\nFor the mobile project to be possible to add as many different SDK's as needed;\nWhole projects estemations;\nResponsible for: creating UX, solution architecture, team task management, creating dev ops tools, presentations/demos, team expansions, planning and preparing for eventual scenarios (most of them become true), remote problem solving",
         "stack": [
             "HTML",
             "CSS",
