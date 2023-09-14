@@ -28,12 +28,15 @@ export default function About() {
             <Contacts/>
             <h1>Evgeniy Raev</h1>
             <p>
-                I have 11 years of experience as a Front-end developer in mobile, desktop
+                I have 13 years of experience as a Front-end developer in mobile, desktop
                 <OC/>
-                and web development. In the past 4 years my responsibilities have grown to lead and expand teams for mobile, web, enterprise
+                and web development. In the past 6 years my responsibilities have grown to lead and expand teams for mobile, web, enterprise
                 <OC/>
                 and game projects.
-            I also have the oportunity to conduct technical trainings for juniors and mentor them individually. I am passionate about working on complex and challenging projects seeming impossible or too expensive. I have experience in UX and gathering technical requirements based on client requests or concept designs.
+                I also have the oportunity to conduct technical trainings for juniors and mentor them individually.
+                I am passionate about working on complex and challenging projects seeming impossible or too expensive.
+                I have experience in UX - creting concept designs and prototype.
+                My responsibilities usualy invove gathering technical requirements and creating bussiness analisis based on client requests. 
             </p>
 
         </header>
