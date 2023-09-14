@@ -35,7 +35,7 @@ export default function About() {
                 and game projects.
                 I also have the oportunity to conduct technical trainings for juniors and mentor them individually.
                 I am passionate about working on complex and challenging projects seeming impossible or too expensive.
-                I have experience in UX - creting concept designs and prototype.
+                I have experience in UX - creating concept designs and prototype.
                 My responsibilities usualy invove gathering technical requirements and creating bussiness analisis based on client requests. 
             </p>
 
