@@ -68,7 +68,7 @@ export default function Skills() {
                     {
                         title:"Soft Skills",
                         list:[
-                            "project managment",
+                            "project manegment",
                             "team managment",
                             "mentoring",
                             "adaptability",
