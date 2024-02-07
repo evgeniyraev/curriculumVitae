@@ -15,33 +15,24 @@ export default function Skills() {
                     {
                         title:"Languages",
                         list:[
-                            "JavaScript",
                             "Swift",
+                            "JavaScript",
                             "Bash",
-                            "MySQL",
-                            "Java (Android)",
                             "TypeScript",
+                            "Objective C"
                         ]
                     },
                     {
-                        title:"Frameworks / Enviroments",
+                        title:"Frameworks / Environments",
                         list:[
+                            "SwiftUI",
+                            "UIKit",
                             "ReactJs",
                             "ReactNative",
-                            "NextJs",
-                            "Express",
                             "PixiJS",
-                            "WebGL",
-                            "websocket",
-                            "TreeJS",
                             "Electron",
                             "node",
-                            "UIKit",
-                            "GameKit",
                             "SpriteKit",
-                            "MetalKit",
-                            "SwiftUI",
-                            "PWA",
                         ]
                     },
                     {
@@ -52,7 +43,6 @@ export default function Skills() {
                             "XD",
                             "inDesign",
                             "AutoCAD",
-                            "figma",
                         ],
                     },
                     {
@@ -61,7 +51,6 @@ export default function Skills() {
                             "vim",
                             "ssh",
                             "tmux",
-                            "docker",
                             "nginx",
                             "jenkins",
                         ]
@@ -70,10 +59,8 @@ export default function Skills() {
                         title:"Services",
                         list:[
                             "AWS",
-                            "Azure",
                             "iTunes Connect",
                             "Adobe Developer Console",
-                            "Cloud Kit",
                             "PlayStore Console",
                             "Google Analytics",
                         ],
@@ -84,11 +71,8 @@ export default function Skills() {
                             "project managment",
                             "team managment",
                             "mentoring",
-                            "leading",
-                            "researching",
-                            "design / UX",
-                            "architecture",
-
+                            "adaptability",
+                            "conflict resolution"
                         ]
                     },
                     {
