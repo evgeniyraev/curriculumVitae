@@ -1,8 +1,38 @@
 [
     {
+        "name": "Lending Journey",
+        "employer": "DSK Bank",
+        "period": "2023 - present",
+        "description": "Developing custom flow in separate module for the needs of applying for a personal loan\nCustom Display of the client's loans",
+        "stack": [
+            "UIKit",
+            "Backbase",
+            "CocaPods",
+            "XcodeGen",
+            "git / Azure"
+        ]
+    },
+    {
+        "name": "Museum Exebition",
+        "employer": "New Age Studio",
+        "period": "2023 - 2024",
+        "description": "Creating interactive experiece used for musee expositions",
+        "stack": [
+            "HTML",
+            "CSS",
+            "Electron",
+            "socket",
+            "Raspberry PI",
+            "Python",
+            "servo controll",
+            "systemd",
+            "git / GitHub"
+        ]
+    },
+    {
         "name": "Mobile Banking App",
         "employer": "SoftwareGroup",
-        "period": "2021 - present",
+        "period": "2021 - 2023",
         "description": "Developing an whitelabel iOS App for Mobile Banking accompanying an Internet Banking Portal;\nDirect client communication;\nLeading a team;\nConducing technical trainings;",
         "stack": [
             "HTML",

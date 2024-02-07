@@ -1,0 +1,10 @@
+article.Experties {
+
+    & > section {
+
+        & div {
+            display:flex;
+            flex-wrap:wrap;
+        }
+    }
+}

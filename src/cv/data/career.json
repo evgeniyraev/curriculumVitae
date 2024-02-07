@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Mobile Banking App",
+        "employer": "SoftwareGroup",
+        "period": "2021 - 2023",
+        "description": "I worked on creating the iOS companion app for a banking solution. The technology of choosing was SwiftUI with the idea that it would be suited for creating future macOS and iPad versions.\nThe main challenges included going through the Apple Pay process, direct client communication, leading a team of 5 people, conducting technical trainings for new employees;\nThe solution is used in Allianz Bulgaria Mobile Banking and BNCTL Mobile Banking;\nResponsible for: mobile solution architecture, team task management, demos, mentoring;",
+        "stack": [
+            "HTML",
+            "CSS",
+            "React JS",
+            "SwiftUI",
+            "UIKit",
+            "MeaWallet",
+            "node",
+            "git / GitLab"
+        ]
+    },
+    {
+        "name": "React Team Lead",
+        "employer": "deVRealm",
+        "period": "2017 - 2021",
+        "description": "Team lead for frontend teams, total of 9 people and responsible for the developed web and mobile solutions;\nHiring manager and conducting technical interviews;\nDeveloping the main architecture used in both React JS and React Native apps;\nDeveloping new support tools for the development process like Design Tool or Translation Tool. They are developed as cli apps, webpack plugins, VSCode plugins, directly communicating with Jenkins;\nMy main goal was to create an environment for all future projects to be created and maintained, and for new features to be implemented with ease;\nResponsible for: creating UX, solution architecture, team task management, creating dev ops tools, presentations/demos, team expansion, mentoring, planning and preparing for eventual scenarios, remote problem solving;",
+        "stack": [
+            "HTML",
+            "CSS",
+            "React JS",
+            "React Native",
+            "Webpack",
+            "Webpack plugins",
+            "npm private repo",
+            "Babel",
+            "node custom modules ",
+            "CI/CD",
+            "Jenkins",
+            "git / gerrit",
+            "Adobe XD"
+        ]
+    }
+]

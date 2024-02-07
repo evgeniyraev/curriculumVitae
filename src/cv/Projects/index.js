@@ -2,13 +2,14 @@ import React from "react";
 import Project from './Project';
 import './index.scss';
 
-export default function Projects({data}) {
+//TODO: Add some photos, links, references
+export default function Projects({data, title = "Projects"}) {
     return (
         <div
             className="Projects"
         >
             <h2>
-                Projects
+                {title}
             </h2>
             { data.map((project, i) => (
                 <Project

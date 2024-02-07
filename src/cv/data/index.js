@@ -1,4 +1,5 @@
 import projects from './projects.json';
+import carrer from './career.json';
 
 let skills = projects.reduce((list, {stack}) => {
     stack.forEach(s => {
@@ -15,4 +16,5 @@ let skills = projects.reduce((list, {stack}) => {
 export {
     skills,
     projects,
+    carrer
 }

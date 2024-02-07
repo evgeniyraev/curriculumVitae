@@ -3,10 +3,11 @@ import './index.scss';
 
 import About from './About';
 import Skills from './Skills';
-import Projects from './Projects';
 import Education from './Education';
 import Download from './Download';
-import { projects } from './data';
+import Expertise from "./Expertise";
+import Projects from "./Projects";
+import { carrer } from './data'
 
 export default function CV() {
     return (
@@ -17,10 +18,11 @@ export default function CV() {
             <Download/>
             <Skills
             />
+            <Expertise/>
             <Projects
-                data={projects}
-            />
-            <Education
+                title="Career"
+                data={carrer}
+
             />
         </div>
     )
