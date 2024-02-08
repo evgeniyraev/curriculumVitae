@@ -7,7 +7,7 @@ import Education from './Education';
 import Download from './Download';
 import Expertise from "./Expertise";
 import Projects from "./Projects";
-import { carrer } from './data'
+import { carrer, projects } from './data'
 
 export default function CV() {
     return (
@@ -20,10 +20,11 @@ export default function CV() {
             />
             <Expertise/>
             <Projects
-                title="Career"
-                data={carrer}
+                title="Projects"
+                data={projects}
 
             />
+            <Education/>
         </div>
     )
 }

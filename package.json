@@ -9,7 +9,8 @@
   "scripts": {
     "prestart": "webpack --progress --config webpack/webpack.prod --config-name static && node src/exportPdf.js -d && rm -rf dist",
     "start": "webpack serve --config webpack/webpack.dev",
-    "build": "webpack --progress --config webpack/webpack.prod"
+    "build": "webpack --progress --config webpack/webpack.prod",
+    "pdf": "node src/exportPdf.js"
   },
   "dependencies": {
     "puppeteer": "^22.0.0",
