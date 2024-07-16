@@ -1,15 +1,29 @@
 [
     {
-        "name": "Lending Journey",
+        "name": "Mobile Banking App",
         "employer": "DSK Bank",
         "period": "2023 - present",
-        "description": "Developing custom flow in separate module for the needs of applying for a personal loan\nCustom Display of the client's loans",
+        "description": "Developing custom flow in separate module for the needs of applying for a personal loan;\nWoring on in-app provisioning, Wallet Extension, and certification;",
         "stack": [
             "UIKit",
+            "PassKit",
             "Backbase",
             "CocaPods",
             "XcodeGen",
             "git / Azure"
+        ]
+    },
+    {
+        "name": "Film Frenzy",
+        "employer": "Momentum Digital Studio",
+        "period": "2024",
+        "description": "Creating interactive experiece in kios for promotion",
+        "stack": [
+            "HTML",
+            "CSS",
+            "Electron",
+            "Githib Action",
+            "git / GitHub"
         ]
     },
     {
